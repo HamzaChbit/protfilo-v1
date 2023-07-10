@@ -4,7 +4,8 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {TbBrandGithub} from 'react-icons/tb'
 import {RxOpenInNewWindow} from 'react-icons/rx'
-import { carWeb, Commerce, crypto } from '@/public/assets'
+import { carWeb, Commerce, ecom,crypto  } from '@/public/assets'
+
 const Projects = () => {
   return (
     <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 ' id='project'>
@@ -79,21 +80,23 @@ const Projects = () => {
     {/* Project 3 */}
     <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10' >
             <div  className='flex flex-col xl:flex-row gap-6' >
-         <a href="https://hamzachbit.github.io/gamingcode/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
+         <a href="https://ecommerce-v10.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
          <div    className='  hover:border-4  border-textGreen rounded-3xl  ' >
-                <Image  className='w-full h-full object-contain rounded-2xl   '  src={Commerce} alt='commerce' />
+                <Image  className='w-full h-full object-contain rounded-2xl   '  src={ecom}   alt='commerce' />
             </div>
          </a>  
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right xl:-ml-16 z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide' >Featured Project</p>
-                <h3 className='text-2xl font-bold' >Gaming</h3>
+                <h3 className='text-2xl font-bold' >Ecommerce</h3>
                 <p   className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md' >
                 A specialized site for gaming. Browse our extensive collection of gaming computers, keyboards, mice, and chairs.  
                    
                 </p>
                 <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
-                    <li>React JS </li>
-                    <li> CSS3</li>
+                    <li>Nextjs </li>
+                    <li>stripe </li>
+                    <li>Sanity </li>
+                    <li> Tailwind css</li>
                     <li>Github Deployment</li>
                 </ul>
                 <div  className='text-2xl flex gap-4' >
