@@ -100,8 +100,8 @@ const Projects = () => {
                     <li>Github Deployment</li>
                 </ul>
                 <div  className='text-2xl flex gap-4' >
-                    <a  className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/gamingcode"  target='_blanc'><TbBrandGithub/></a>
-                    <a   className='hover:text-textGreen duration-300'  href="https://hamzachbit.github.io/gamingcode/ " target='_blanc'><RxOpenInNewWindow/></a>
+                    <a  className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/ecommerce-v10"  target='_blanc'><TbBrandGithub/></a>
+                    <a   className='hover:text-textGreen duration-300'  href="https://ecommerce-v10.vercel.app/ " target='_blanc'><RxOpenInNewWindow/></a>
                 
                 </div>
             </div>
