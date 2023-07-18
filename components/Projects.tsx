@@ -48,7 +48,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10' >
             <div  className='flex flex-col xl:flex-row-reverse gap-6' >
-         <a href="https://cars-v1.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
+         <a href="https://chbit-store.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
          <div    className='  hover:border-4  border-textGreen rounded-3xl  ' >
                 <Image  className='w-full h-full object-contain rounded-2xl  '  src={ecommecre } alt='car' />
             </div>
