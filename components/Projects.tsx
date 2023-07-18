@@ -4,7 +4,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {TbBrandGithub} from 'react-icons/tb'
 import {RxOpenInNewWindow} from 'react-icons/rx'
-import { carWeb, Commerce, ecom,crypto  } from '@/public/assets'
+import { carWeb, Commerce, ecom,crypto ,ecommecre  } from '@/public/assets'
 
 const Projects = () => {
   return (
@@ -50,7 +50,7 @@ const Projects = () => {
             <div  className='flex flex-col xl:flex-row-reverse gap-6' >
          <a href="https://cars-v1.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
          <div    className='  hover:border-4  border-textGreen rounded-3xl  ' >
-                <Image  className='w-full h-full object-contain rounded-2xl  '  src={carWeb} alt='car' />
+                <Image  className='w-full h-full object-contain rounded-2xl  '  src={ecommecre } alt='car' />
             </div>
          </a>  
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right  z-10 '   >
