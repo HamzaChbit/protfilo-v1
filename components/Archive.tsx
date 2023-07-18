@@ -22,17 +22,19 @@ const [ShowMore , setShowMore] =useState(false)
             link='https://netflix-v1-xi.vercel.app/'
             />
                  <ArchiveCard
-            title='Private Beaches '
+            title='E-Commerce'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
             listItem = {["React js",'Tailwind css','vercel' ]}
-            link='https://hamzachbit.github.io/my-beaches/'
+            link='https://hamzachbit.github.io/gamingcode/'
             />
-                         <ArchiveCard
-            title='SHOP CHBIT'
-            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["React js",'Tailwind css','vercel' ]}
-            link='https://hamzachbit.github.io/ecommrece-reacat/'
+                    <ArchiveCard
+            title='Car HM'
+            des= 'A comprehensive car website where you can explore detailed car specifications. Our user-friendly interface allows you to effortlessly search and find your desired car type, providing an enhanced car browsing experience. '
+            listItem = {["Next js",'TypeScript','Tailwind css','vercel' ]}
+            link='https://cars-v1.vercel.app/'
             />
+
+
             {
                 ShowMore && (
 
@@ -57,6 +59,12 @@ const [ShowMore , setShowMore] =useState(false)
             />
 
 </motion.div>
+<ArchiveCard
+            title='Private Beaches '
+            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+            listItem = {["React js",'Tailwind css','vercel' ]}
+            link='https://hamzachbit.github.io/my-beaches/'
+            />
 <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
                 <ArchiveCard
             title='CRUDS'
@@ -65,6 +73,15 @@ const [ShowMore , setShowMore] =useState(false)
             link='https://magenta-marshmallow-e690f0.netlify.app/'
             />
 </motion.div>
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+<ArchiveCard
+            title='SHOP CHBIT'
+            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+            listItem = {["React js",'Tailwind css','vercel' ]}
+            link='https://hamzachbit.github.io/ecommrece-reacat/'
+            /></motion.div>
+
+
 
 <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
                  <ArchiveCard

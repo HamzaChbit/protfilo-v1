@@ -55,20 +55,22 @@ const Projects = () => {
          </a>  
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right  z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide  ' >Featured Project</p>
-                <h3 className='text-2xl font-bold' >Car HM</h3>
+                <h3 className='text-2xl font-bold' >E-Commerce</h3>
                 <p   className='bg-[#112240] text-sm    xl:-mr-16 md:text-base p-2 md:p-6 rounded-md' >
-                A comprehensive car website where you can explore detailed car specifications. Our user-friendly interface allows you to effortlessly search and find your desired car type, providing an enhanced car browsing experience. 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum saepe veritatis eos iste aliquid corporis, quia ipsa iusto sint laborum, deserunt culpa voluptatem est.
                    
                 </p>
                 <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
                     <li>Nextjs</li>
                     <li>TypeScript</li>
-                    <li>Tailwind css</li>
+                    <li>Prisma</li>
+                    <li>Stripe</li>
+                    <li>Tailwind && shadcn/ui</li>
                     <li>Vercel Deployment</li>
                 </ul>
                 <div  className='text-2xl flex gap-4' >
-                    <a  className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/cars-v1"  target='_blanc'><TbBrandGithub/></a>
-                    <a   className='hover:text-textGreen duration-300'  href="https://cars-v1.vercel.app " target='_blanc'><RxOpenInNewWindow/></a>
+                    <a  className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/chbit-store"  target='_blanc'><TbBrandGithub/></a>
+                    <a   className='hover:text-textGreen duration-300'  href="https://chbit-store.vercel.app/ " target='_blanc'><RxOpenInNewWindow/></a>
                 
                 </div>
             </div>

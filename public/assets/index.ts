@@ -6,6 +6,7 @@ import carWeb from './Screenshot_15.png'
 import Commerce from './Screenshot_11.png'
 import ecom from './ecom.png'
 import crypto from './Screenshot_10.png'
+import ecommecre from './Screenshot_6.png'
 
 
-export {logo,profileImg,icon,chbit,carWeb,Commerce,crypto,ecom }
+export {logo,profileImg,icon,chbit,carWeb,Commerce,crypto,ecom , ecommecre}
