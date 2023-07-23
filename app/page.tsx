@@ -10,8 +10,10 @@ import LeftSide from '@/components/LeftSide'
 import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects'
 import RightSide from '@/components/RightSide'
+
 import { motion } from 'framer-motion'
 import Head from 'next/head'
+
 
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
 <>
       <Head>
         <title>hamza chbit</title>
+      
+   
       </Head>
 
    <main  className='w-full h-screen font-bodyFont bg-bodYColor text-textLight overflow-x-hidden overflow-y-scroll  scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 ' >
