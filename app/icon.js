@@ -38,4 +38,8 @@ export default function Icon() {
       ...size,
     }
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 317660d9077c11016cd45870fcccc29988f73dd6
