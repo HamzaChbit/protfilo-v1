@@ -18,14 +18,14 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: '#325DF8',
+          background: '#3B1EF6',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           color: 'white',
-          borderRadius : '80%'
+            borderRadius : '80%'
         }}
       >
         H
@@ -38,8 +38,4 @@ export default function Icon() {
       ...size,
     }
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 317660d9077c11016cd45870fcccc29988f73dd6
