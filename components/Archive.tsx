@@ -58,6 +58,16 @@ link='https://camera-ecom.vercel.app/'
 />
 
 </motion.div>
+                 <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+
+<ArchiveCard
+title='Fitness Academy'
+des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+listItem = {["Nextjs",'Tailwind css' ]}
+link='https://fitness-v0.vercel.app/'
+/>
+
+</motion.div>
 
 
 
