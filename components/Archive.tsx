@@ -40,15 +40,8 @@ const [ShowMore , setShowMore] =useState(false)
 
                < >
 
+                 
                     <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
-
-                     <ArchiveCard
-            title='Weather'
-            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["Next js",'Tailwind css','vercel' ]}
-            link='https://weather-b1.vercel.app/'
-            /></motion.div>
-                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
 
                      <ArchiveCard
             title='Juice Shop'
@@ -80,12 +73,20 @@ link='https://fitness-v0.vercel.app/'
 />
 
 </motion.div>
+                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+
+                     <ArchiveCard
+            title='Weather'
+            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+            listItem = {["Next js",'Tailwind css','vercel' ]}
+            link='https://weather-b1.vercel.app/'
+            /></motion.div>
 
 
 
 
 
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
 
                                      <ArchiveCard
             title='To do app && media'
@@ -101,7 +102,7 @@ link='https://fitness-v0.vercel.app/'
             listItem = {["React js",'Tailwind css','vercel' ]}
             link='https://hamzachbit.github.io/my-beaches/'
             />
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
                 <ArchiveCard
             title='CRUDS'
             des='PRODUCT MANAGEMENT SYSTEM'
