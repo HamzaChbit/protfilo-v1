@@ -22,11 +22,12 @@ const [ShowMore , setShowMore] =useState(false)
             link='https://netflix-v1-xi.vercel.app/'
             />
                  <ArchiveCard
-            title='E-Commerce'
+            title='Juice Shop'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["React js",'Tailwind css','vercel' ]}
-            link='https://hamzachbit.github.io/gamingcode/'
-            />
+            listItem = {["Next js",'Tailwind css','vercel' ]}
+            link='https://juiceshop-one.vercel.app/'
+            />  
+                
                     <ArchiveCard
             title='Car HM'
             des= 'A comprehensive car website where you can explore detailed car specifications. Our user-friendly interface allows you to effortlessly search and find your desired car type, providing an enhanced car browsing experience. '
@@ -43,12 +44,14 @@ const [ShowMore , setShowMore] =useState(false)
                  
                     <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
 
-                     <ArchiveCard
-            title='Juice Shop'
+                <ArchiveCard
+            title='E-Commerce'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["Next js",'Tailwind css','vercel' ]}
-            link='https://juiceshop-one.vercel.app/'
-            /></motion.div>
+            listItem = {["React js",'Tailwind css','vercel' ]}
+            link='https://hamzachbit.github.io/gamingcode/'
+            />
+                    
+                    </motion.div>
 
 
                  
