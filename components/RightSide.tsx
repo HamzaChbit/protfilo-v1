@@ -7,7 +7,7 @@ const RightSide = () => {
 
 
 
-            <p className='text-sm rotate-90 w-72 tracking-wide text-textGreen  ' >hamza.chbit.me</p>
+            <p className='text-sm rotate-90 w-72 tracking-wide text-textGreen  ' >hamza..chbit.me</p>
 
             <p className='text-sm rotate-90 w-72 tracking-wide text-textGreen cursor-pointer  ' >hamza.chbit.me</p>
 
