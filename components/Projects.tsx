@@ -23,7 +23,7 @@ const Projects = () => {
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right xl:-ml-16 z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide' >Featured Project</p>
                 <h3 className='text-2xl font-bold' >Crypto</h3>
-                <p   className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md' >
+                <p   className='bg-bgCard  text-sm md:text-base p-2 md:p-6 rounded-md' >
                 A digital currency site, information about the currency, the 10 best currencies and trading currencies, and registering an account for me to place the best currency
                    
                 </p>
@@ -56,7 +56,7 @@ const Projects = () => {
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right  z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide  ' >Featured Project</p>
                 <h3 className='text-2xl font-bold' >E-Commerce</h3>
-                <p   className='bg-[#112240] text-sm    xl:-mr-16 md:text-base p-2 md:p-6 rounded-md' >
+                <p   className='bg-bgCard  text-sm    xl:-mr-16 md:text-base p-2 md:p-6 rounded-md' >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum saepe veritatis eos iste aliquid corporis, quia ipsa iusto sint laborum, deserunt culpa voluptatem est.
                    
                 </p>
@@ -90,7 +90,7 @@ const Projects = () => {
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right xl:-ml-16 z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide' >Featured Project</p>
                 <h3 className='text-2xl font-bold' >Ecommerce</h3>
-                <p   className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md' >
+                <p   className='bg-bgCard  text-sm md:text-base p-2 md:p-6 rounded-md' >
                 A specialized site for gaming. Browse our extensive collection of gaming computers, keyboards, mice, and chairs.  
                    
                 </p>

@@ -3,6 +3,7 @@
 import { logo } from '@/public/assets'
 import Image from 'next/image'
 import Link from 'next/link'
+import ThemeToggle from './ThemeToggle';
 import React, { useRef, useState } from 'react'
 import { easeIn, motion } from 'framer-motion'
 import {MdOutlineClose} from 'react-icons/md'
@@ -46,6 +47,11 @@ const Navbar = () => {
             <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} >
                 <Image   className='w-16' src={logo} alt='logo' />
             </motion.div>
+
+            <div   className='hidden md:block'>
+            <ThemeToggle />
+        </div>
+
             <div  className='hidden mdl:inline-flex items-center gap-7 ' >
                 <ul className='flex text-[13px] gap-7'>
                     <Link href='#home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link  hover:shadow-green-500 hover:shadow-xl  '     onClick={handelScroll} >
@@ -99,7 +105,7 @@ const Navbar = () => {
                     <motion.div  initial={{x:20,opacity:0}}
                     animate={{x:0,opacity:1}}
                     transition={{duration:0.1}} 
-                    className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'
+                    className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-bgCard  flex flex-col items-center px-4 py-10 relative'
                     >
                         <MdOutlineClose  className='text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4' onClick={()=>setShowMenu(false)} />
                         <div  className='flex flex-col items-center gap-7 ' >
@@ -145,6 +151,12 @@ const Navbar = () => {
 
 
                             </ul>
+
+
+                            <div   className=''>
+            <ThemeToggle />
+        </div>
+
                                    
             {/* <a href="/assets/resume.png" target='_blanc'>
             <motion.button  
@@ -155,22 +167,22 @@ const Navbar = () => {
             <div  className='flex gap-4' >
                           
           <motion.a     initial={{ y:20, opacity:0} } animate={{  opacity:1}} transition={{delay:0.8,ease:"easeIn"} }   href="https://github.com/HamzaChbit"  target='_blank' >
-            <span className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     hover:text-textGreen text-zinc-200 rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
+            <span className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <TbBrandGithub/>
             </span>
           </motion.a>
           <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.linkedin.com/in/hamza-chbit-3b47b1239/t"  target='_blank' >
-            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     hover:text-textGreen text-zinc-200 rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
+            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <TiSocialLinkedin/>
             </span>
           </motion.a>
           <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }  href="https://www.instagram.com/hamza__chbit"  target='_blank' >
-            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     hover:text-textGreen text-zinc-200 rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
+            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <FaInstagram/>
             </span>
           </motion.a>
           <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.facebook.com/hamzachbit"  target='_blank' >
-            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     hover:text-textGreen text-zinc-200 rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
+            <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700      text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <FaFacebook/>
             </span>
           </motion.a>
@@ -192,6 +204,8 @@ const Navbar = () => {
 
                     </motion.div>
                 </div>
+
+                
             )}
 
 

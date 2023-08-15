@@ -10,3 +10,23 @@
 .active {
     color: #64ffda;
 }
+
+.dark {
+    --color-bodYColor: #0A192F;
+    --color-textGreen: #64ffda;
+    --color-textLight: #ccd6f6;
+   --color-bg-card : #112240;
+    --color-textDark: #8892b0;
+    --color-hoverColor: rgba(100,255,218,0.1);
+   
+  }
+  
+  .light {
+    --color-bodYColor: #ffffff;
+    --color-textGreen: #3fb499;
+    --color-bg-card : #edf1f6;
+    --color-textLight: #1e1c1c;
+    --color-textDark: #464444;
+    --color-hoverColor: rgba(100,255,218,0.1);
+    
+  }

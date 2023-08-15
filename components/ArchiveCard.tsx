@@ -18,7 +18,7 @@ const ArchiveCard = ({title,link,listItem,des} :Props ) => {
  
   return (
 <a href={link} target='_blanc' >
-<div  className='w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col justify-between gap-6 hover:-translate-y-2 transition-transform duration-300 group' >
+<div  className='w-full h-80 rounded-lg bg-bgCard p-7 flex flex-col justify-between gap-6 hover:-translate-y-2 transition-transform duration-300 group' >
         <div className='flex justify-between items-center' >
                 <FaRegFolder className='text-textGreen text-4xl' />
                 <RxOpenInNewWindow  className=' text-4xl  hover:text-textGreen '/>
