@@ -17,7 +17,7 @@ const {theme, setTheme} = useContext(ThemeContext)
       ) : (
         <div className='flex items-center cursor-pointer ' onClick={()=> setTheme(theme === 'dark' ? 'light' : 'dark')}>
          
-          <HiSun className='text-primary text-2xl mr-2' />
+          <HiSun className='text-primary text-2xl text-green-400 mr-2' />
           <h2 className='hover:text-green-300'>Light Mode</h2> 
         </div>
       )}

@@ -28,6 +28,8 @@ module.exports = {
       textDark : 'var(--color-textDark)',
       hoverColor : 'var(--color-hoverColor)',
       bgCard : 'var(--color-bg-card)',
+      textDarkTw : 'var(--color-textDarkTw)',
+      textDarkBt : 'var(--color-textDarkBt)'
      },
      screens: {
         xs:'320px',

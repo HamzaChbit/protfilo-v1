@@ -18,15 +18,19 @@
    --color-bg-card : #112240;
     --color-textDark: #8892b0;
     --color-hoverColor: rgba(100,255,218,0.1);
+    --color-textDarkTw:#5f6b86;
+    --color-textDarkBt:#112240;
    
   }
   
   .light {
     --color-bodYColor: #ffffff;
-    --color-textGreen: #3fb499;
+    --color-textGreen: #03906f;
     --color-bg-card : #edf1f6;
     --color-textLight: #1e1c1c;
     --color-textDark: #464444;
+    --color-textDarkTw:#3fb499;
+    --color-textDarkBt:#edf1f6;
     --color-hoverColor: rgba(100,255,218,0.1);
     
   }

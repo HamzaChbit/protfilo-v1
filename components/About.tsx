@@ -25,17 +25,20 @@ const About = () => {
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Next.js</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>TypeScript</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Tailwind css</li>
+            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>bootstrap 5</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>FireBase</li>
+            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>mongoDB</li>
+            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Prisma</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>JavaScript / ES6</li>
-            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>HTML</li>
-            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>CSS</li>
+            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>HTML / CSS</li>
+          
             
         </ul>
 
             </div>
 
 
-            <div className='w-full  h-[65vh]   mb-1  mdl:w-1/2    sml:w-1/2    lg:w-1/3 h-70  group     '>
+            <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full   lg:w-1/3 h-70  group     '>
                     <div  className='w-full h-80 -left-6 -top-6 rounded-lg ' >
                         <div className='w-full h-[65vh]  flex  ' >
                             <Image  className='rounded-lg    object-cover   '  src={chbit} alt='profile'/>
