@@ -9,7 +9,7 @@ const About = () => {
     <section  id='about'   className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
         <SectionTitle  title='About Me' titleNo='01'  />
         <div  className='flex flex-col lgl:flex-row gap-16' >
-            <div  className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4' >
+            <div  className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
                 <p>As a FrontEnd developer with experience building websites, I have a strong foundation in JavaScript, ReactJS, NextJS, CSS, and HTML. I specialize in creating websites that are both visually appealing and highly functional, using my skills to create dynamic and responsive web pages. I am passionate about web development and strive to stay up-to-date with the latest industry trends and best practices.</p>
 
                     <p>
@@ -38,10 +38,10 @@ const About = () => {
             </div>
 
 
-            <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full   lg:w-1/3 h-70  group     '>
-                    <div  className='w-full h-80 -left-6 -top-6 rounded-lg ' >
+            <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full    h-70  group     '>
+                    <div  className='w-full h-80  rounded-lg ' >
                         <div className='w-full h-[65vh]  flex  ' >
-                            <Image  className='rounded-lg    object-cover   '  src={chbit} alt='profile'/>
+                            <Image  className='rounded-lg object-fill'  src={chbit} alt='profile'/>
                             {/* <div className='hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300' ></div>
                             <div  className='hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 ' >    </div> */}
 
