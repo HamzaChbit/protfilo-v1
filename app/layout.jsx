@@ -1,5 +1,6 @@
 
 
+import Head from 'next/head'
 import { ThemeProvider } from '../context/ThemeContext'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -17,6 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+           <Head>
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
+      </Head>
       <body className={inter.className}>
       <ThemeProvider  >
         {children}

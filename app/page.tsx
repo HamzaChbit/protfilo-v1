@@ -21,8 +21,11 @@ export default function Home() {
 <>
       <Head>
         <title>hamza chbit</title>
+     
       
-   
+        <meta property="og:title" content="hamza chbit" key="title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hamzachbit.vercel.app/" />
       </Head>
 
    <main  className='w-full h-screen font-bodyFont bg-bodYColor text-textLight overflow-x-hidden overflow-y-scroll  scrollbar scrollbar-track-textDarkBt scrollbar-thumb-textDarkTw ' >
