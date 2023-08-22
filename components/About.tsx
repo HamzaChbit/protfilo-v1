@@ -2,7 +2,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {AiFillThunderbolt} from 'react-icons/ai'
 import Image from 'next/image'
-import { chbit, profileImg } from '@/public/assets'
+import { chbit, chbithamza, profileImg } from '@/public/assets'
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
             <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full    h-70  group     '>
                     <div  className='w-full h-80  rounded-lg ' >
                         <div className='w-full h-[65vh]  flex  ' >
-                            <Image  className='rounded-lg object-fill'  src={chbit} alt='profile'/>
+                            <Image  className='rounded-lg object-fill'  src={chbithamza} alt='profile'/>
                             {/* <div className='hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300' ></div>
                             <div  className='hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 ' >    </div> */}
 
