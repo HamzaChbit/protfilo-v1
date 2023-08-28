@@ -27,7 +27,7 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.8}}    
         
-        >I am a FrontEnd developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS and HTML.
+        >I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, ExpressJS , Tailwind CSS .
 </motion.p>
 <motion.button 
 
