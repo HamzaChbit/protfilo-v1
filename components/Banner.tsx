@@ -33,7 +33,7 @@ const Banner = () => {
 
   initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.9}} 
 className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md   bg-textGreen/25 hover:shadow-green-900 hover:shadow-2xl ' >
-     <a  href="https://github.com/HamzaChbit"  target='_blank' >  Check out my Project!  </a> 
+     <a  href="https://drive.google.com/file/d/1u646Y3OWKXg2zwJiWLWZZyoPnxYduo1L/view?usp=sharing"  target='_blank' >  Check out my Resume!  </a> 
 </motion.button>
 
     </section>
