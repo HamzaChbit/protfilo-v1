@@ -19,7 +19,21 @@ export const metadata = {
   
   verification:{
     google:"google-site-verification=Ato9kbNjOrYcUtsrS3ym8wBTaKHyfln7WYPC1D2ODcQ"
-  }
+  },
+
+
+
+  metaTags: [
+    {
+      name: 'robots',
+      content: 'all'
+    },
+    {
+      name: 'google-site-verification',
+      content: 'Ato9kbNjOrYcUtsrS3ym8wBTaKHyfln7WYPC1D2ODcQ'
+    }
+  ],
+  
  
 
 
