@@ -8,9 +8,18 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Hamza Chbit',
+  metadataBase:new URL('https://hamzachbit.vercel.app/'),
+  
+  title: {
+    default:'Hamza Chbit',
+    template:`%s | hamza chbit`
+},
 
-  description: 'Hamza chbit  React - Nextjs Front-end Developer (JAMstack)  Talks about #reactjs, #reactdeveloper, and #frontenddevelopment' 
+  description: 'Hamza chbit  React - Nextjs Front-end Developer (JAMstack)  Talks about #reactjs, #reactdeveloper, and #frontenddevelopment',
+  
+  verification:{
+    google:"google-site-verification=Ato9kbNjOrYcUtsrS3ym8wBTaKHyfln7WYPC1"
+  }
  
 
 
