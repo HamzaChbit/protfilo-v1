@@ -12,13 +12,24 @@ export const metadata = {
   
   title: {
     default:'Hamza Chbit',
-    template:`%s | hamza chbit`
+    template:`%s | hamza chbit`,
+
 },
+
 
   description: 'Hamza chbit  React - Nextjs Front-end Developer (JAMstack)  Talks about #reactjs, #reactdeveloper, and #frontenddevelopment',
   
   verification:{
     google:"google-site-verification=Ato9kbNjOrYcUtsrS3ym8wBTaKHyfln7WYPC1D2ODcQ"
+  },
+  other: {
+    'theme-color': '#0d1117',
+    "color-scheme": "dark only",
+    "twitter:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "twitter:card": "summary_large_image",
+    "og:url": "hamzachbit.vercel.app",
+    "og:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "og:type": "website",
   },
 
 
