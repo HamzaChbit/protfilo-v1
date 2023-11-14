@@ -46,7 +46,7 @@ const [ShowMore , setShowMore] =useState(false)
             title='Travel'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
             listItem = {["Next js",'Tailwind css','vercel' ]}
-            link='https://travel-zeta-five.vercel.app/'
+            link='https://travelweb-ochre.vercel.app/'
             />
                     
                     </motion.div>
