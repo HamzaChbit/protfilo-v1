@@ -11,7 +11,7 @@ export const metadata = {
   metadataBase:new URL('https://hamzachbit.vercel.app/'),
   
   title: {
-    default:'Hamza Chbit',
+    default:'Hamza chbit',
     template:`%s | hamza chbit`,
 
 },
