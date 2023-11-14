@@ -55,7 +55,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Hamza Chbit ',
-  description: 'Hamza chbit | I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs,ExpressJS , Tailwind CSS ',
+  description: 'Hamza chbit...  ',
   other: {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
