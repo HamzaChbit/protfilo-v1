@@ -11,18 +11,20 @@ const About = () => {
         <div  className='flex flex-col lgl:flex-row gap-16' >
             <div  className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
                 <p>
-As a FullStack developer, I possess a robust skill set that includes both frontend and backend technologies. I&apos;m experienced in JavaScript, ReactJS, NextJS, CSS, and HTML for frontend development, while also proficient in ExpressJS and MongoDB for backend tasks. My expertise extends to creating visually appealing and highly functional websites, ensuring dynamic and responsive pages.
+
+As a FullStack developer, I possess an extensive skill set encompassing frontend and backend technologies crucial for creating robust web solutions. Proficient in JavaScript, ReactJS, NextJS, CSS, and HTML for frontend development, I leverage ExpressJS and MongoDB adeptly for backend tasks. My expertise is dedicated to crafting visually captivating and functionally dynamic websites, ensuring responsive and engaging user experiences.
 </p>
 
                     <p>
                  
                        
-I&apos;m dedicated to staying updated with the latest industry trends and best practices to provide innovative solutions. <span  className='text-textGreen' > I excel in problem-solving, debugging, and implementing new features, and I prioritize close collaboration with clients and stakeholders to bring their vision to life. </span> My strong work ethic, attention to detail, and commitment to excellence consistently shine through in every project I undertake.
+Staying abreast of industry trends and best practices is integral to my work ethos,allowing me to deliver innovative solutions. <span  className='text-textGreen' > I excel in problem-solving, feature implementation, and meticulous debugging. Collaborating closely with clients and stakeholders is a priority to actualize their visions effectively. </span>My commitment to excellence, coupled with a strong work ethic and acute attention to detail, consistently elevates every project I undertake.
                     </p> 
                     <p>
-                    Whether I&apos;m building a website from scratch or optimizing an existing web page, my approach remains the same. I&apos;m dedicated to delivering high-quality work that exceeds expectations. With a strong foundation in frontend and backend technologies, along with my problem-solving skills and creative mindset, I am confident in tackling any challenge that comes my way. My ultimate goal is to contribute to the development of dynamic and innovative web solutions that leave a lasting impact.
+                   From inception to optimization, my approach remains unwavering in delivering superior quality work that exceeds expectations. Equipped with comprehensive frontend and backend skills, complemented by a problem-solving mindset, I confidently embrace challenges. My overarching aim is to contribute substantially to crafting dynamic and innovative web solutions that leave a lasting impact.
+
         </p>
-        <p>Here are a few technologies I have been working with recently :</p>
+        <p>Recent technologies I've been proficiently working with include:</p>
         <ul className='max-w-[450px]  text-sm font-titleFont grid grid-cols-2 gap-2 mt-6 ' >
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>React </li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Next.js</li>
