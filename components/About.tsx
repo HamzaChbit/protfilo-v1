@@ -24,7 +24,7 @@ Staying abreast of industry trends and best practices is integral to my work eth
                    From inception to optimization, my approach remains unwavering in delivering superior quality work that exceeds expectations. Equipped with comprehensive frontend and backend skills, complemented by a problem-solving mindset, I confidently embrace challenges. My overarching aim is to contribute substantially to crafting dynamic and innovative web solutions that leave a lasting impact.
 
         </p>
-        <p>Recent technologies I've been proficiently working with include:</p>
+        <p>Here are a few technologies I have been working with recently :</p>
         <ul className='max-w-[450px]  text-sm font-titleFont grid grid-cols-2 gap-2 mt-6 ' >
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>React </li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Next.js</li>
