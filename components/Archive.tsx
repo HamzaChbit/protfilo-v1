@@ -40,9 +40,19 @@ const [ShowMore , setShowMore] =useState(false)
                 ShowMore && (
 
                < >
+                   <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
+
+                <ArchiveCard
+            title='Travel'
+            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+            listItem = {["Next js",'Tailwind css','vercel' ]}
+            link='https://travelweb-ochre.vercel.app/'
+            />
+                    
+                    </motion.div>
 
                  
-                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
+                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
 
                 <ArchiveCard
             title='E-Commerce'
