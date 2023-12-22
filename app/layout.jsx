@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Hamza Chbit | Portfolio   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs,ExpressJS , Tailwind CSS ',
   applicationName:"Hamza Chbit",
-  keywords:["Hamza Chbit","hamzachbit","hamza chbit","chbit","Hamza chbit"],
+  keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
   authors:[{name:"Hamza Chbit"}],
   creator:"Hamza Chbit",
   publisher:"Hamza chbit",
