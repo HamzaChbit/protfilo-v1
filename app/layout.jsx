@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  metadataBase: new URL("https://hamzachbit.vercel.app"),
+  metadataBase: new URL("https://hamzachbit.vercel.app","https://hamzachbit.netlify.app/"),
   title: 'Hamza Chbit | Chbit   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs,ExpressJS , Tailwind CSS ',
   applicationName:"Hamza Chbit",
