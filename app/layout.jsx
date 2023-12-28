@@ -33,7 +33,7 @@ export default function RootLayout({
            <Head>
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-             <meta name="robots" content="index, follow" />
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
       </Head>
       <body className={inter.className}>
