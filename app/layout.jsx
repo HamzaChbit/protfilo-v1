@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   metadataBase: new URL("https://hamzachbit.vercel.app"),
-  title: 'Hamza Chbit | Portfolio   ',
+  title: 'Hamza Chbit | Front-end Web Dev  ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs,ExpressJS , Tailwind CSS ',
   applicationName:"Hamza Chbit",
   keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
