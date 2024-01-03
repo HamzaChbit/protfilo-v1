@@ -25,7 +25,7 @@ const [ShowMore , setShowMore] =useState(false)
             title='Juice Shop'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
             listItem = {["Next js",'Tailwind css','vercel' ]}
-            link='https://juiceshop-one.vercel.app/'
+            link='https://jusicsshopchbit.netlify.app/'
             />  
                 
                     <ArchiveCard
