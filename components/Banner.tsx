@@ -27,14 +27,14 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.8}}    
         
-        >I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, ExpressJS , Tailwind CSS .
+        >I am a FullStack developer with experience building websites and web applications. <br /> I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS .
 </motion.p>
-<motion.button 
+{/* <motion.button 
 
   initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.9}} 
 className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md   bg-textGreen/25 hover:shadow-green-900 hover:shadow-2xl ' >
-     <a  href="https://drive.google.com/file/d/1u646Y3OWKXg2zwJiWLWZZyoPnxYduo1L/view?usp=sharing"  target='_blank' >  Check out my Resume!  </a> 
-</motion.button>
+     <a  href="https://drive.google.com/file/d/1cW2ogTJux6MRsDtBVVamVMMfephAPWu9/view?usp=sharing"  target='_blank' >  Check out my Resume!  </a> 
+</motion.button> */}
 
     </section>
   )

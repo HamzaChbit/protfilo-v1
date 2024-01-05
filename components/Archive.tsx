@@ -15,11 +15,11 @@ const [ShowMore , setShowMore] =useState(false)
 
         </div>
         <div  className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10' >
-            <ArchiveCard
-            title='Netflix Api '
-            des='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit eaque obcaecati illo ea adipisci hic'
-            listItem = {["Nextjs",'Tailwind css','Firebase' ]}
-            link='https://netflix-v1-xi.vercel.app/'
+        <ArchiveCard
+            title='Travel'
+            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+            listItem = {["Next js",'Tailwind css','vercel' ]}
+            link='https://travelweb-ochre.vercel.app/'
             />
                  <ArchiveCard
             title='Juice Shop'
@@ -42,26 +42,33 @@ const [ShowMore , setShowMore] =useState(false)
                < >
                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
 
-                <ArchiveCard
-            title='Travel'
-            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["Next js",'Tailwind css','vercel' ]}
-            link='https://travelweb-ochre.vercel.app/'
+         
+               <ArchiveCard
+            title='Netflix Api '
+            des='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit eaque obcaecati illo ea adipisci hic'
+            listItem = {["Nextjs",'Tailwind css','Firebase' ]}
+            link='https://netflix-v1-xi.vercel.app/'
             />
                     
                     </motion.div>
 
                  
+                   
+
                     <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
 
-                <ArchiveCard
-            title='E-Commerce'
-            des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
-            listItem = {["React js",'Tailwind css','vercel' ]}
-            link='https://hamzachbit.github.io/gamingcode/'
-            />
-                    
-                    </motion.div>
+<ArchiveCard
+title='Crypto'
+des='A digital currency site, information about the currency, the 10 best currencies and trading currencies,'
+listItem = {["React js",'Tailwind css','Nextjs' ]}
+link='https://cryptomax-1.vercel.app/'
+/>
+    
+    </motion.div>
+
+
+
+
 
 
                  
@@ -95,11 +102,22 @@ link='https://fitness-v0.vercel.app/'
             link='https://weather-b1.vercel.app/'
             /></motion.div>
 
+             <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+
+<ArchiveCard
+title='E-Commerce'
+des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
+listItem = {["React js",'Tailwind css','vercel' ]}
+link='https://hamzachbit.github.io/gamingcode/'
+/>
+    
+    </motion.div>
 
 
 
 
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.5}}  >
 
                                      <ArchiveCard
             title='To do app && media'
@@ -115,7 +133,7 @@ link='https://fitness-v0.vercel.app/'
             listItem = {["React js",'Tailwind css','vercel' ]}
             link='https://hamzachbit.github.io/my-beaches/'
             />
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.6}}  >
                 <ArchiveCard
             title='CRUDS'
             des='PRODUCT MANAGEMENT SYSTEM'
@@ -123,7 +141,7 @@ link='https://fitness-v0.vercel.app/'
             link='https://magenta-marshmallow-e690f0.netlify.app/'
             />
 </motion.div>
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.7}}  >
 <ArchiveCard
             title='SHOP CHBIT'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
@@ -133,7 +151,7 @@ link='https://fitness-v0.vercel.app/'
 
 
 
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.8}}  >
                  <ArchiveCard
             title='
             Complete Responsive real estate website'
@@ -142,7 +160,7 @@ link='https://fitness-v0.vercel.app/'
             link='https://hamzachbit.github.io/bulid/'
             /> 
 </motion.div>
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.5}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.9}}  >
                            <ArchiveCard
             title='Honey Shop Website '
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam dolorum minus laudantium at ipsam quam animi minima ducimus.'
