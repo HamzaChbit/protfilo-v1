@@ -18,7 +18,7 @@ const About = () => {
                     <p>
                  
                        
-                    On the backend, I'm proficient in MongoDB, Firebase, Clerk and Prisma, creating scalable solutions with robust data management. <span  className='text-textGreen' > <br />
+                    On the backend, Im proficient in MongoDB, Firebase, Clerk and Prisma, creating scalable solutions with robust data management. <span  className='text-textGreen' > <br />
                     I prioritize staying updated with industry trends, excel in problem-solving, and collaborate closely with clients to bring their visions to life. </span>My goal is delivering innovative solutions that surpass expectations, leveraging my skill set to create impactful web solutions.
                     </p> 
                     
