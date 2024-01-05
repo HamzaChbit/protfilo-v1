@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   metadataBase: new URL("https://hamzachbit.vercel.app"),
-  title: 'Hamza Chbit | Chbit   ',
+  title: 'Hamza Chbit | Portfolio   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs,ExpressJS , Tailwind CSS ',
   applicationName:"Hamza Chbit",
   keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
@@ -33,6 +33,7 @@ export default function RootLayout({
            <Head>
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
       </Head>
       <body className={inter.className}>
