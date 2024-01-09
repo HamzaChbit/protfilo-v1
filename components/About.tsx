@@ -2,7 +2,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {AiFillThunderbolt} from 'react-icons/ai'
 import Image from 'next/image'
-import {  chbithamza } from '@/public/assets'
+
 
 const About = () => {
   return (
@@ -47,7 +47,8 @@ const About = () => {
             <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full    h-70  group     '>
                     <div  className='w-full h-80  rounded-lg ' >
                         <div className='w-full h-[65vh]  flex  ' >
-                            <Image  className='rounded-lg object-fill'  src={chbithamza} alt='profile'/>
+                            <Image  className='rounded-lg object-fill'  
+                           width={550} height={250} src='/assets/chbit1.jpeg' alt='profile'/>
                       
 
                         

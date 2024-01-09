@@ -4,7 +4,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {TbBrandGithub} from 'react-icons/tb'
 import {RxOpenInNewWindow} from 'react-icons/rx'
-import { carWeb, Commerce, ecom,crypto ,ecommecre, payload  } from '@/public/assets'
+import { ecom,ecommecre, payload  } from '@/public/assets'
 
 const Projects = () => {
   return (

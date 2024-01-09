@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   metadataBase: new URL("https://hamzachbit.vercel.app"),
+
   title: 'Hamza Chbit | Front-end Web Dev   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS ',
   applicationName:"Hamza Chbit",
@@ -16,11 +17,14 @@ export const metadata = {
   creator:"Hamza Chbit",
   publisher:"Hamza chbit",
   alternates:{canonical:"/",languages:{"en-US":"/en-US"}  },
-
+    twitter:{
+card:"summary_large_image"
+    },
 
   openGraph: {
     title: 'Hamza Chbit',
     description: 'I am a FullStack developer with experience building websites and web applications...',
+  
     url:"https://hamzachbit.vercel.app",siteName:"hamza chbit" ,type:"website",local:""
   },
 }
