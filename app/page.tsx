@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:url" content="https://hamzachbit.vercel.app/" />
       </Head>
 
-   <main  className='w-full h-screen font-bodyFont bg-bodYColor text-textLight overflow-x-hidden overflow-y-scroll  scrollbar scrollbar-track-textDarkBt scrollbar-thumb-textDarkTw ' >
+   <main  className='w-full h-screen font-bodyFont bg-bodYColor text-textLight overflow-x-hidden overflow-y-scroll  scrollbar scrollbar-track-textDarkBt scrollbar-thumb-textDarkTw cursor-pointer' >
     <Navbar/>
     <div  className=" w-full h-[88vh] xl: flex items-center gap-20 justify-between" >
       <motion.div
