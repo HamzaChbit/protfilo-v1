@@ -3,12 +3,14 @@ import SectionTitle from './SectionTitle'
 import {AiFillThunderbolt} from 'react-icons/ai'
 import Image from 'next/image'
 
-
+import { motion } from 'framer-motion'
 const About = () => {
   return (
-    <section  id='about'   className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
+    <motion.section initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.6,delay:0.8}}  id='about'   className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
+
         <SectionTitle  title='About Me' titleNo='01'  />
-        <div  className='flex flex-col lgl:flex-row gap-16' >
+        <div
+          className='flex flex-col lgl:flex-row gap-16' >
             <div  className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
                 <p>
 
@@ -57,7 +59,7 @@ const About = () => {
             </div>
         </div>
         
-    </section>
+    </motion.section>
   )
 }
 
