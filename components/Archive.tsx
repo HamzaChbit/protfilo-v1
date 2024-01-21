@@ -68,11 +68,21 @@ link='https://cryptomax-1.vercel.app/'
 
 
 
+    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+
+<ArchiveCard
+title='Ecommerce'
+des='A specialized site for gaming. Browse our extensive collection of gaming computers, keyboards, mice, and chairs. ,'
+listItem = {["React js",'Tailwind css','Nextjs','Sanity' ]}
+link='https://ecommerce-v10.vercel.app'
+/>
+    
+    </motion.div>
 
 
 
                  
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
 
 
 <ArchiveCard

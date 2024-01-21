@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 
 const RightSide = () => {
   return (
     <div className='w-full h-full flex flex-col items-center justify-end text-textLight' >
-        <a href="https://mail.google.com/mail/?view=cm&to=hamzachbit@gmail.com" target='_blanc'>
+        <Link href="https://mail.google.com/mail/?view=cm&to=hamzachbit@gmail.com" target='_blanc'>
 
 
 
@@ -14,7 +15,7 @@ const RightSide = () => {
 
 
 
-            </a>
+            </Link>
             </div>
   )
 }
