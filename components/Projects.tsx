@@ -4,7 +4,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {TbBrandGithub} from 'react-icons/tb'
 import {RxOpenInNewWindow} from 'react-icons/rx'
-import { adan, ecommecre, payload  } from '@/public/assets'
+import { adan, ecommecre, weather  } from '@/public/assets'
 import Link from 'next/link'
 
 const Projects = () => {
@@ -16,28 +16,27 @@ const Projects = () => {
                        {/* Project 1  */}
         <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10' >
             <div  className='flex flex-col xl:flex-row gap-6   ' >
-         <Link  href="https://e-commerce-chbit.payloadcms.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
+         <Link  href="https://weather-ma.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
          <div   className='  hover:border-4  border-textGreen rounded-3xl  ' >
-                <Image  className='w-full h-full object-contain rounded-2xl  '  src={payload} alt='payload' />
+                <Image  className='w-full h-full object-contain rounded-2xl  '  src={weather} alt='payload' />
             </div>
          </Link>  
              <div className='w-full xl:w-1/2 flex flex-col  gap-6  lgl:justify-between items-end text-right xl:-ml-16 z-10 '   >
                 <p  className='font-titleFont text-textGreen text-sm tracking-wide' >Featured Project</p>
-                <h3 className='text-2xl font-bold' >E-Commerce App </h3>
+                <h3 className='text-2xl font-bold' >Weather App </h3>
                 <p   className='bg-bgCard  text-sm md:text-base p-2 md:p-6 rounded-md' >
-                Full Stack E-Commerce App with an Admin Dashboard & CMS & Stripe
+                Access accurate and convenient weather forecasts for Morocco effortlessly. Our app provides comprehensive three-day forecasts and detailed weather information for all cities and regions, ensuring you stay informed about the upcoming conditions.
                    
                 </p>
                 <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
                     <li>Nextjs</li>
-                    <li>Scss</li>
-                    <li>Payload</li>
-                    <li>Stripe</li>
+                    <li>Tailwind Css</li>
+                    <li>APi</li>
                     
                 </ul>
                 <div  className='text-2xl flex gap-4' >
-                    <Link   className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/e-commerce"  target='_blanc'><TbBrandGithub/></Link>
-                    <Link    className='hover:text-textGreen duration-300'  href="https://e-commerce-chbit.payloadcms.app/ " target='_blanc'><RxOpenInNewWindow/></Link>
+                    <Link   className='hover:text-textGreen duration-300'  href="https://github.com/HamzaChbit/adan"  target='_blanc'><TbBrandGithub/></Link>
+                    <Link    className='hover:text-textGreen duration-300'  href="https://weather-ma.vercel.app/ " target='_blanc'><RxOpenInNewWindow/></Link>
                 
                 </div>
             </div>
