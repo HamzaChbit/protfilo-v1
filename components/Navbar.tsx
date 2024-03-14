@@ -48,9 +48,9 @@ const Navbar = () => {
                 <Image   className='w-16' src={logo} alt='logo' />
             </motion.div>
 
-            <div   className='hidden md:block'>
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.6}}   className='hidden md:block'>
             <ThemeToggle />
-        </div>
+        </motion.div>
 
             <div  className='hidden mdl:inline-flex items-center gap-7 ' >
                 <ul className='flex text-[13px] gap-7'>

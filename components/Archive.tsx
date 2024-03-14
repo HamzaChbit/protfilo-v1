@@ -6,9 +6,24 @@ import ArchiveCard from './ArchiveCard'
 const Archive = () => {
 
 const [ShowMore , setShowMore] =useState(false)
-
+const cardVariants = {
+  offscreen: {
+    y: 200
+  },
+  onscreen: {
+    y: 50,
+    rotate: 0,
+    transition: {
+    
+      type: "spring",
+      bounce: 0.4,
+      duration: 0.4
+    }
+  }
+};
   return (
-    <div  className='max-w-contentContainer mx-auto px-4 py-24' >
+    <motion.div  className='max-w-contentContainer mx-auto px-4 py-24'  variants={cardVariants} initial="offscreen"
+    whileInView="onscreen"     viewport={{ once: true, amount: 0.8 }}>
         <div  className='w-full flex flex-col items-center' >
             <h2  className='text-3xl font-titleFont text-textGreen' >Other Noteworthy Projects</h2>
             <p className='text-sm font-titleFont text-textGreen' >View the archive</p>
@@ -200,7 +215,7 @@ link='https://hamzachbit.github.io/gamingcode/'
         </div>
       
 
-    </div>
+    </motion.div>
   )
 }
 
