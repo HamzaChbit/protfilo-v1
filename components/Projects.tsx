@@ -9,9 +9,9 @@ import Link from 'next/link'
 
 const Projects = () => {
   return (
-    <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 ' id='project'>
+    <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 '>
         <SectionTitle   title='Some Things I have Built'  titleNo='03' />
-            <div  className='w-full flex flex-col items-center justify-between gap-28 mt-10' >
+            <div  className='w-full flex flex-col items-center justify-between gap-28 mt-10'  id='project' >
 
                        {/* Project 1  */}
         <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10' >
