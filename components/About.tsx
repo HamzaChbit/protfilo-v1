@@ -2,16 +2,20 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import {AiFillThunderbolt} from 'react-icons/ai'
 import Image from 'next/image'
-
+import AOS from 'aos'
 import { motion } from 'framer-motion'
 const About = () => {
   return (
     <motion.section initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.6,delay:0.8}}  id='about'   className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
 
         <SectionTitle  title='About Me' titleNo='01'  />
-        <div
+        <div   
           className='flex flex-col lgl:flex-row gap-16' >
-            <div  className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
+            <motion.div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+           initial={{x:50,opacity:0}} animate={{x:0,opacity:1}} whileInView={{opacity:1}} transition={{duration:0.9,delay:0.8}}  viewport={{ once: true }}
+            className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
                 <p>
 
                 I specialize in frontend technologies like React, Next.js, TypeScript, Tailwind CSS, SCSS, and Bootstrap 5, ensuring seamless user experiences and maintainable code.
@@ -31,30 +35,31 @@ const About = () => {
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Scss</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>TypeScript</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Tailwind css</li>
-            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Payload</li>
+           
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Bootstrap 5</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>FireBase</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Clerk</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>MongoDB</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>Prisma</li>
             <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>JavaScript / ES6</li>
-            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>HTML </li><li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span> CSS</li>
+            <li className='flex items-center gap-2'><span  className='text-textGreen' ><AiFillThunderbolt/></span>HTML / CSS </li>
+         
           
             
         </ul>
 
-            </div>
+            </motion.div>
 
 
             <div className='w-full  h-[65vh]   mb-1  mdl:w-full    sml:full    h-70  group     '>
                     <div  className='w-full h-80  rounded-lg ' >
-                        <div className='w-full h-[65vh]  flex  ' >
+                        <motion.div   initial={{x:-50,opacity:0}} animate={{x:0,opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.8}}  viewport={{ once: true }}  className='w-full h-[65vh]  flex  ' >
                             <Image  className='rounded-lg object-fill'  
                            width={550} height={250} src='/assets/chbit1.jpeg' alt='profile'/>
                       
 
                         
-                        </div>
+                        </motion.div>
                     </div>
             </div>
         </div>
