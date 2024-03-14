@@ -6,32 +6,17 @@ import {TbBrandGithub} from 'react-icons/tb'
 import {RxOpenInNewWindow} from 'react-icons/rx'
 import { adan, ecommecre, weather  } from '@/public/assets'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+
 const Projects = () => {
-    const cardVariants = {
-        offscreen: {
-          y: 200
-        },
-        onscreen: {
-          y: 50,
-          rotate: 0,
-          transition: {
-          
-            type: "spring",
-            bounce: 0.4,
-            duration: 0.4
-          }
-        }
-      };
+
   return (
     <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 ' id='project'    >
         <SectionTitle   title='Some Things I have Built'  titleNo='03' />
             <div  className='w-full flex flex-col items-center justify-between gap-28 mt-10' >
 
                        {/* Project 1  */}
-        <motion.div className='w-full flex flex-col items-center  justify-center gap-28 mt-10'id='project' 
-    variants={cardVariants} initial="offscreen"
-    whileInView="onscreen"     viewport={{ once: true, amount: 0.8 }} >
+        <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10'id='project' 
+     >
             <div  className='flex flex-col xl:flex-row gap-6   ' >
          <Link  href="https://weather-ma.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group ' >
          <div   className='  hover:border-4  border-textGreen rounded-3xl  ' >
@@ -60,12 +45,11 @@ const Projects = () => {
          </div>
       
            
-        </motion.div>
+        </div>
 
         {/* Project 2  */}
 
-        <motion.div  variants={cardVariants}   initial="offscreen"
-   whileInView="onscreen"     viewport={{ once: true, amount: 0.8 }} className='w-full flex flex-col items-center  justify-center gap-28 mt-10' data-aos="fade-left"
+        <div  className='w-full flex flex-col items-center  justify-center gap-28 mt-10' data-aos="fade-left"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500" >
@@ -99,11 +83,10 @@ const Projects = () => {
          </div>
       
            
-        </motion.div>
+        </div>
 
     {/* Project 3 */}
-    <motion.div variants={cardVariants} initial="offscreen"
-   whileInView="onscreen"     viewport={{ once: true, amount: 0.8 }} className='w-full flex flex-col items-center  justify-center gap-28 mt-10' data-aos="fade-right"
+    <div  className='w-full flex flex-col items-center  justify-center gap-28 mt-10' data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
             <div  className='flex flex-col xl:flex-row gap-6' >
@@ -134,7 +117,7 @@ const Projects = () => {
          </div>
       
            
-        </motion.div>
+        </div>
             </div>
 
 

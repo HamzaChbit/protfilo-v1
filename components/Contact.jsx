@@ -37,27 +37,12 @@ export const Contact = () => {
     sendEmail(data);
   };
 
-  const cardVariants = {
-    offscreen: {
-      y: 300
-    },
-    onscreen: {
-      y: 50,
-      rotate: 0,
-      transition: {
-      
-        type: "spring",
-        bounce: 0.4,
-        duration: 0.8
-      }
-    }
-  };
+  
 
   return (
-    <motion.section id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
+    <section id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
     
-    variants={cardVariants} initial="offscreen"
-    whileInView="onscreen"     viewport={{ once: true, amount: 0.8 }}
+    
     >
       <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
         04. What&apos;s Next?
@@ -99,6 +84,6 @@ export const Contact = () => {
     
    
  
-    </motion.section>
+    </section>
   );
 };
