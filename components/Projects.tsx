@@ -9,14 +9,14 @@ import Link from 'next/link'
 
 const Projects = () => {
   return (
-    <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 ' id='project'>
-        <SectionTitle   title='Some Things I have Built'  titleNo='03' />
+    <section className='max-w-container mx-auto lgl:px-20 py-24  mt-1 ' >
+        <SectionTitle   title='Some Things I have Built'  titleNo='03'  />
             <div  className='w-full flex flex-col items-center justify-between gap-28 mt-10' >
 
                        {/* Project 1  */}
-        <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10' >
+        <div className='w-full flex flex-col items-center  justify-center gap-28 mt-10'id='project' >
             <div  className='flex flex-col xl:flex-row gap-6   ' >
-         <Link  href="https://weather-ma.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group '>
+         <Link  href="https://weather-ma.vercel.app/" target='_blanc' className='w-full xl:w-1/2 h-auto relative group ' >
          <div   className='  hover:border-4  border-textGreen rounded-3xl  ' >
                 <Image  className='w-full h-full object-contain rounded-2xl  '  src={weather} alt='payload' />
             </div>

@@ -3,7 +3,7 @@ import { ThemeProvider } from '../context/ThemeContext'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import ToastProvider from '../context/Tosat'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -41,8 +41,10 @@ export default function RootLayout({
         <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
       </Head>
       <body className={inter.className}>
+      
       <ThemeProvider  >
       <SpeedInsights />
+      <ToastProvider/>
         {children}
         </ThemeProvider  >
         </body>
