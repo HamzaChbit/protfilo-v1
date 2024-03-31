@@ -40,7 +40,23 @@ const [ShowMore , setShowMore] =useState(false)
                 ShowMore && (
 
                < >
-                   <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
+
+
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.1}}  >
+                    
+         
+                    <ArchiveCard
+                 title='Netflix Api '
+                 des=' Access accurate and convenient weather forecasts for Morocco effortlessly.'
+                 listItem = {["Nextjs",'Tailwind css',"API" ]}
+                 link='https://weather-ma.vercel.app/'
+                 />
+                         
+                         </motion.div>
+
+
+
+                   <motion.div  initial={{opacity:0}}  whileInView={{opacity:2}} transition={{delay:0.2}}  >
 
          
                <ArchiveCard
