@@ -46,7 +46,7 @@ const [ShowMore , setShowMore] =useState(false)
                     
          
                     <ArchiveCard
-                 title='Netflix Api '
+                 title='weather App '
                  des=' Access accurate and convenient weather forecasts for Morocco effortlessly.'
                  listItem = {["Nextjs",'Tailwind css',"API" ]}
                  link='https://weather-ma.vercel.app/'
