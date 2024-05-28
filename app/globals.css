@@ -34,3 +34,6 @@
     --color-hoverColor: rgba(100,255,218,0.1);
     
   }
+ .scrollbar {
+    @apply scrollbar-thin scrollbar-thumb-textDarkTw scrollbar-track-textDarkBt;
+  } 

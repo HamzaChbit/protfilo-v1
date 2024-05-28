@@ -1,10 +1,14 @@
-import React from 'react'
+
 import SectionTitle from './SectionTitle'
 import {AiFillThunderbolt} from 'react-icons/ai'
 import Image from 'next/image'
-import AOS from 'aos'
+
+
 import { motion } from 'framer-motion'
+
 const About = () => {
+
+
   return (
     <motion.section initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.6,delay:0.8}}  id='about'   className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
 
@@ -55,7 +59,7 @@ const About = () => {
                     <div  className='w-full h-80  rounded-lg ' >
                         <motion.div   initial={{x:-50,opacity:0}} animate={{x:0,opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.8}}  viewport={{ once: true }}  className='w-full h-[65vh]  flex  ' >
                             <Image  className='rounded-lg object-fill'  
-                           width={550} height={250} src='/assets/chbit1.jpeg' alt='profile'/>
+                           width={550} height={250} src='/assets/chbit1.jpeg' alt='profile' title='profile'/>
                       
 
                         

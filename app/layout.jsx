@@ -1,9 +1,12 @@
+
 import Head from 'next/head'
 import { ThemeProvider } from '../context/ThemeContext'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import ToastProvider from '../context/Tosat'
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -32,6 +35,10 @@ card:"summary_large_image"
 export default function RootLayout({
   children,
 }) {
+
+
+
+
   return (
     <html lang="en">
            <Head>
@@ -40,12 +47,16 @@ export default function RootLayout({
             <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
       </Head>
-      <body className={inter.className}>
+      <body className={inter.className} >
       
       <ThemeProvider  >
       <SpeedInsights />
       <ToastProvider/>
+     
+
+ 
         {children}
+   
         </ThemeProvider  >
         </body>
     </html>
