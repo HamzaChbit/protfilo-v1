@@ -111,38 +111,38 @@ const Navbar = () => {
                         <div  className='flex flex-col items-center gap-7 ' >
                             <div  className='flex flex-col text-base gap-7 ' >
                             <Link href='#home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
-                        <motion.a
+                        <motion.div
                         initial={{y:20,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.2,delay:0.1,ease:"easeIn"}}
-                        >Home</motion.a>
+                        >Home</motion.div>
                      </Link >
                      <Link href='#about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                           initial={{y:20,opacity:0}}
                           animate={{y:0,opacity:1}}
                           transition={{duration:0.2,delay:0.2,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >01.</span>About
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
                      <Link href='#project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.2,delay:0.3,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >02.</span>Project
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
                      <Link href='#contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.4,delay:0.4,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >03.</span>Contact
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
 
 
