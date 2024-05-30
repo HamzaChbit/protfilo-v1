@@ -68,7 +68,7 @@ const Navbar = () => {
                         transition={{duration:0.1,delay:0.1}}
                         >
                   
-                           <span className='text-emerald-400' >01.</span>About
+                           <span className='text-emerald-800' >01.</span>About
                         </motion.div>  
                      </Link >
          
@@ -78,7 +78,7 @@ const Navbar = () => {
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.3}}
                         >
-                             <span  className='text-emerald-400'>02.</span>Project
+                             <span  className='text-emerald-800'>02.</span>Project
                         </motion.div>  
                      </Link >
                      <Link href='#contact'  title='contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-md  '     onClick={handelScroll} >
@@ -87,7 +87,7 @@ const Navbar = () => {
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.4}}
                         >
-                             <span  className='text-emerald-400'>03.</span>Contact
+                             <span  className='text-emerald-800'>03.</span>Contact
                         </motion.div>  
                      </Link >
                 </div>
@@ -124,7 +124,7 @@ const Navbar = () => {
                           animate={{y:0,opacity:1}}
                           transition={{duration:0.2,delay:0.2,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-400' >01.</span>About
+                             <span  className='text-emerald-800' >01.</span>About
                         </motion.div>  
                      </Link >
                      <Link href='#project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
@@ -133,7 +133,7 @@ const Navbar = () => {
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.2,delay:0.3,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-400' >02.</span>Project
+                             <span  className='text-emerald-800' >02.</span>Project
                         </motion.div>  
                      </Link >
                      <Link href='#contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
@@ -142,7 +142,7 @@ const Navbar = () => {
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.4,delay:0.4,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-400' >03.</span>Contact
+                             <span  className='text-emerald-800' >03.</span>Contact
                         </motion.div>  
                      </Link >
 
