@@ -55,39 +55,39 @@ const Navbar = () => {
                 <div className='flex text-[13px] gap-7'>
               
                     <Link href='#home' title='home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link  hover:shadow-green-500 hover:shadow-xl  '     onClick={handelScroll} >
-                        <motion.a
+                        <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1}}
-                        >Home</motion.a>
+                        >Home</motion.div>
                      </Link >
                      <Link href='#about' title='about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.1}}
                         >
                            <span className='text-textGreen' style={{ color: '#008000' }}>01.</span>About
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
          
                      <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.3}}
                         >
                              <span  className='text-textGreen' style={{ color: 'var(--color-textGreen)' }}>02.</span>Project
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
                      <Link href='#contact'  title='contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-md  '     onClick={handelScroll} >
-                     <motion.a
+                     <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.4}}
                         >
                              <span  className='text-textGreen' style={{ color: 'var(--color-textGreen)' }}>03.</span>Contact
-                        </motion.a>  
+                        </motion.div>  
                      </Link >
                 </div>
 
