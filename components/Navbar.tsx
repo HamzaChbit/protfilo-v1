@@ -136,13 +136,13 @@ const Navbar = () => {
                         </motion.a>  
                      </Link >
                      <Link href='#contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.4,delay:0.4,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >03.</span>Contact
-                        </motion.li>  
+                        </motion.a>  
                      </Link >
 
 
@@ -166,22 +166,22 @@ const Navbar = () => {
             </a> */}
             <div  className='flex gap-4' >
                           
-          <motion.a     initial={{ y:20, opacity:0} } animate={{  opacity:1}} transition={{delay:0.8,ease:"easeIn"} }   href="https://github.com/HamzaChbit"  target='_blank' >
+          <motion.a     initial={{ y:20, opacity:0} } animate={{  opacity:1}} transition={{delay:0.8,ease:"easeIn"} }   href="https://github.com/HamzaChbit"  target='_blank'    rel="noopener noreferrer" >
             <span className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <TbBrandGithub/>
             </span>
           </motion.a>
-          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.linkedin.com/in/hamza-chbit-3b47b1239/t"  target='_blank' >
+          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.linkedin.com/in/hamza-chbit-3b47b1239/t"  target='_blank'   rel="noopener noreferrer" >
             <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <TiSocialLinkedin/>
             </span>
           </motion.a>
-          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }  href="https://www.instagram.com/hamza__chbit"  target='_blank' >
+          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }  href="https://www.instagram.com/hamza__chbit"  target='_blank'    rel="noopener noreferrer">
             <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700     text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <FaInstagram/>
             </span>
           </motion.a>
-          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.facebook.com/hamzachbit"  target='_blank' >
+          <motion.a     initial={{ y:20, opacity:0} } animate={{opacity:1}} transition={{delay:1,ease:"easeIn"} }   href="https://www.facebook.com/hamzachbit"  target='_blank'    rel="noopener noreferrer">
             <span  className='w-10 h-10 text-xl bg-hoverColor  border-[1px]  rounded-zinc-700      text-textLight rounded-full   inline-flex  items-center justify-center       hover:text-textGreen  cursor-pointer  translate-y-2 transition-all duration-300' >
               <FaFacebook/>
             </span>
@@ -197,7 +197,7 @@ const Navbar = () => {
 
                 </div>
                 <motion.a initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2,ease:'easeIn'}} 
-            className='text-sm w-72 tracking-widest text-textGreen text-center mt-4 ' href="https://mail.google.com/mail/?view=cm&to=hamzachbit@gmail.com" >
+            className='text-sm w-72 tracking-widest text-textGreen text-center mt-4 ' href="https://mail.google.com/mail/?view=cm&to=hamzachbit@gmail.com"    rel="noopener noreferrer">
 
             </motion.a>
 
