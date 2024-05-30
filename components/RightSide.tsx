@@ -8,10 +8,9 @@ const RightSide = () => {
 
 
 
-            <p className='text-sm rotate-90 w-72 tracking-wide text-textGreen  'style={{ color: '#008000' }} >hamza.chbit.me</p>
+            <p className='text-sm rotate-90 w-72 tracking-wide text-textGreen  'style={{ color: 'var(--color-textGreen)' }}>hamza.chbit.me</p>
 
-            <p className="text-sm rotate-90 w-72 tracking-wide cursor-pointer" style={{ color: '#008000' }}>hamza.chbit.me</p>
-
+            <p className="text-sm rotate-90 w-72 tracking-wide cursor-pointer" style={{ color: 'var(--color-textGreen)' }}>hamza.chbit.me</p>
 
 
             </Link>

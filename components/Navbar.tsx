@@ -52,43 +52,44 @@ const Navbar = () => {
         </motion.div>
 
             <div  className='hidden mdl:inline-flex items-center gap-7 ' >
-                <ul className='flex text-[13px] gap-7'>
+                <div className='flex text-[13px] gap-7'>
+              
                     <Link href='#home' title='home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link  hover:shadow-green-500 hover:shadow-xl  '     onClick={handelScroll} >
-                        <motion.li
+                        <motion.a
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1}}
-                        >Home</motion.li>
+                        >Home</motion.a>
                      </Link >
                      <Link href='#about' title='about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.1}}
                         >
                            <span className='text-textGreen' style={{ color: '#008000' }}>01.</span>About
-                        </motion.li>  
+                        </motion.a>  
                      </Link >
          
                      <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.3}}
                         >
-                             <span  className='text-textGreen' style={{ color: '#008000' }}>02.</span>Project
-                        </motion.li>  
+                             <span  className='text-textGreen' style={{ color: 'var(--color-textGreen)' }}>02.</span>Project
+                        </motion.a>  
                      </Link >
                      <Link href='#contact'  title='contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-md  '     onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1,delay:0.4}}
                         >
-                             <span  className='text-textGreen' style={{ color: '#008000' }}>03.</span>Contact
-                        </motion.li>  
+                             <span  className='text-textGreen' style={{ color: 'var(--color-textGreen)' }}>03.</span>Contact
+                        </motion.a>  
                      </Link >
-                </ul>
+                </div>
 
             </div>
             <div onClick={()=>setShowMenu(true)}  className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group' >
@@ -108,31 +109,31 @@ const Navbar = () => {
                     >
                         <MdOutlineClose  className='text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4' onClick={()=>setShowMenu(false)} />
                         <div  className='flex flex-col items-center gap-7 ' >
-                            <ul  className='flex flex-col text-base gap-7 ' >
+                            <div  className='flex flex-col text-base gap-7 ' >
                             <Link href='#home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
-                        <motion.li
+                        <motion.a
                         initial={{y:20,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.2,delay:0.1,ease:"easeIn"}}
-                        >Home</motion.li>
+                        >Home</motion.a>
                      </Link >
                      <Link href='#about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                           initial={{y:20,opacity:0}}
                           animate={{y:0,opacity:1}}
                           transition={{duration:0.2,delay:0.2,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >01.</span>About
-                        </motion.li>  
+                        </motion.a>  
                      </Link >
                      <Link href='#project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
-                     <motion.li
+                     <motion.a
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.2,delay:0.3,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen'style={{ color: '#008000' }} >02.</span>Project
-                        </motion.li>  
+                        </motion.a>  
                      </Link >
                      <Link href='#contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
                      <motion.li
@@ -149,7 +150,7 @@ const Navbar = () => {
 
 
 
-                            </ul>
+                            </div>
 
 
                             <div   className=''>
