@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import { useForm } from 'react-hook-form';
-
+import { motion } from 'framer-motion';
 
 export const Contact = () => {
 
@@ -40,7 +40,12 @@ export const Contact = () => {
   
 
   return (
-    <div id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
+    <motion.div 
+    initial={{ y: 100, opacity: 0 }}
+    whileInView={{opacity:1 ,y:0}}
+   
+    transition={{ duration: 1, delay: 0.4 ,ease:"easeInOut"}}
+    id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
 
 
     >
@@ -84,6 +89,6 @@ export const Contact = () => {
     
    
  
-    </div>
+    </motion.div>
   );
 };

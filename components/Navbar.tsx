@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ThemeToggle from './ThemeToggle';
 import React, {  useRef, useState } from 'react'
-import {  motion } from 'framer-motion'
+import {  motion, useScroll } from 'framer-motion'
 import {MdOutlineClose} from 'react-icons/md'
 import { TbBrandGithub } from 'react-icons/tb'
 import { TiSocialLinkedin } from 'react-icons/ti'
@@ -38,10 +38,17 @@ const Navbar = () => {
             setShowMenu(false)
         }
     }
-
+    const {scrollYProgress}=useScroll()
 
   return (
-    <div  className=' w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodYColor px-4' >
+
+
+
+
+
+
+
+    <div  className=' w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodYColor px-4 ' >
         <div     className='max-w-container  cursor-pointer   h-full mx-auto py-1 font-titleFont flex items-center justify-between' >
             <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} >
                 <Image   className='w-16' src={logo} alt='logo' title='logo' />
@@ -54,14 +61,14 @@ const Navbar = () => {
             <div  className='hidden mdl:inline-flex items-center gap-7 ' >
                 <div className='flex text-[13px] gap-7'>
               
-                    <Link href='#home' title='home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link  hover:shadow-green-500 hover:shadow-xl  '     onClick={handelScroll} >
+                    <Link href='#home' title='home' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link  hover:shadow-green-500 hover:shadow-xl  '     onClick={handelScroll} >
                         <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.1}}
                         >Home</motion.div>
                      </Link >
-                     <Link href='#about' title='about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
+                     <Link href='#about' title='about' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
                      <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
@@ -72,7 +79,7 @@ const Navbar = () => {
                         </motion.div>  
                      </Link >
          
-                     <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
+                     <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
                      <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
@@ -81,7 +88,7 @@ const Navbar = () => {
                              <span  className='text-emerald-800'>02.</span>Project
                         </motion.div>  
                      </Link >
-                     <Link href='#contact'  title='contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-md  '     onClick={handelScroll} >
+                     <Link href='#contact'  title='contact' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-md  '     onClick={handelScroll} >
                      <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
@@ -101,24 +108,24 @@ const Navbar = () => {
             </div>
             {showMenu && (
                 <div ref={(node) => (ref.current = node) } 
-                className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'
+                className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end '
                  onClick={handlClick}  >
-                    <motion.div  initial={{x:20,opacity:0}}
+                    <motion.div  initial={{x:100,opacity:0}}
                     animate={{x:0,opacity:1}}
                     transition={{duration:0.1}} 
-                    className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-bgCard  flex flex-col items-center px-4 py-10 relative'
+                    className='w-[80%] h-full  bg-bgCard  flex flex-col items-center px-4 py-10 relative'
                     >
                         <MdOutlineClose  className='text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4' onClick={()=>setShowMenu(false)} />
                         <div  className='flex flex-col items-center gap-7 ' >
                             <div  className='flex flex-col text-base gap-7 ' >
-                            <Link href='#home' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
+                            <Link href='#home' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
                         <motion.div
                         initial={{y:20,opacity:0}}
                         animate={{y:0,opacity:1}}
                         transition={{duration:0.2,delay:0.1,ease:"easeIn"}}
                         >Home</motion.div>
                      </Link >
-                     <Link href='#about' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
+                     <Link href='#about' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
                      <motion.div
                           initial={{y:20,opacity:0}}
                           animate={{y:0,opacity:1}}
@@ -127,7 +134,7 @@ const Navbar = () => {
                              <span  className='text-emerald-800' >01.</span>About
                         </motion.div>  
                      </Link >
-                     <Link href='#project' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
+                     <Link href='#project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
@@ -136,7 +143,7 @@ const Navbar = () => {
                              <span  className='text-emerald-800' >02.</span>Project
                         </motion.div>  
                      </Link >
-                     <Link href='#contact' className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
+                     <Link href='#contact' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
@@ -212,6 +219,7 @@ const Navbar = () => {
 
         </div>
     </div>
+ 
   )
 }
 

@@ -10,15 +10,14 @@ const About = () => {
 
 
   return (
-    <motion.section initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, delay: 0.8 }} id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
+    <section   id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
 
       <SectionTitle title='About Me' titleNo='01' />
       <div
         className='flex flex-col lgl:flex-row gap-16' >
-        <motion.div data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          initial={{ x: 50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.9, delay: 0.8 }} viewport={{ once: true }}
+        <motion.div 
+          
+          initial={{ x: -100, opacity: 0 }}  transition={{ duration: 1, delay: 1.2 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,x:0}}
           className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
           <p>
 
@@ -59,11 +58,11 @@ const About = () => {
           <div className='w-full  rounded-lg ' >
 
             <motion.div
-              initial={{ x: -50, opacity: 0 }}
-              animate={{ x: 0, opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              viewport={{ once: true }}
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{opacity:1 ,x:0}}
+             
+              transition={{ duration: 1, delay: 1.2 ,ease:"easeInOut"}}
+            
               className='w-full flex'
             >
               <Image
@@ -79,7 +78,7 @@ const About = () => {
         </div>
       </div>
 
-    </motion.section>
+    </section>
   )
 }
 
