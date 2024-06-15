@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <section   id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
-      <motion.div   initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 0.5 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,y:0}}>
+      <motion.div   initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 0.5 ,ease:"easeInOut"}}  animate={{y:0,opacity:1}}>
          <SectionTitle title='About Me' titleNo='01' />
       </motion.div>
      

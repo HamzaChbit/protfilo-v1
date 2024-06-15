@@ -16,7 +16,7 @@ const Certificate = () => {
 
   return (
     <section className='max-w-container mx-auto lgl:px-20  py-24 mt-1' id='certificate'>
-        <motion.div   initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 0.5 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,y:0}}>
+        <motion.div   initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 0.5 ,ease:"easeInOut"}}   animate={{y:0,opacity:1}}>
         <SectionTitle title='Online Certificates' titleNo='' />
       </motion.div>
 
