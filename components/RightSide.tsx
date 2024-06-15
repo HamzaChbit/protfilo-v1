@@ -8,7 +8,7 @@ const RightSide = () => {
     
             <Link 
       target="_blank" 
-      href="https://wa.me/+2126977110" 
+      href="https://wa.me/+212694977110" 
       className="group"
     >
       <FaWhatsapp 
