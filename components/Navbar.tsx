@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ThemeToggle from './ThemeToggle';
 import React, {  useRef, useState } from 'react'
-import {  motion, useScroll } from 'framer-motion'
+import {  motion } from 'framer-motion'
 import {MdOutlineClose} from 'react-icons/md'
 import { TbBrandGithub } from 'react-icons/tb'
 import { TiSocialLinkedin } from 'react-icons/ti'
@@ -39,7 +39,7 @@ const Navbar = () => {
             setShowMenu(false)
         }
     }
-    const {scrollYProgress}=useScroll()
+   
 
   return (
 
@@ -81,7 +81,7 @@ const Navbar = () => {
                         </motion.div>  
                      </Link >
          
-                     <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link    hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
+                     <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link   hover:shadow-green-500 hover:shadow-xl  '   onClick={handelScroll} >
                      <motion.div
                         initial={{y:-10,opacity:0}}
                         animate={{y:0,opacity:1}}
@@ -150,7 +150,7 @@ const Navbar = () => {
                      <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
-                                 transition={{duration:0.4,delay:0.4,ease:"easeIn"}}
+                                 transition={{duration:0.2,delay:0.4,ease:"easeIn"}}
                         >
                              <span  className='text-textGreen' >03.</span>Contact
                         </motion.div>  
