@@ -9,9 +9,7 @@ import LeftSide from '@/components/LeftSide';
 import Navbar from '@/components/Navbar';
 import Projects from '@/components/Projects';
 import RightSide from '@/components/RightSide';
-import ScrollToTop from "react-scroll-to-top";
 import Head from 'next/head';
-import Headroom from "react-headroom"
 import Certificate from '@/components/Certificate';
 export default function Home() {
 
@@ -52,7 +50,7 @@ export default function Home() {
               <RightSide/>
             </div>
             </div>
-            <ScrollToTop smooth className='flex justify-center items-center rounded-2xl ' color="green"  />
+          
       </main>
     </>
   );

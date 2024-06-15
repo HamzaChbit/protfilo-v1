@@ -12,6 +12,7 @@ import { TiSocialLinkedin } from 'react-icons/ti'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 
+
 const Navbar = () => {
 
         const ref = useRef<string | any>('')  
@@ -107,6 +108,7 @@ const Navbar = () => {
                 <span  className='w-full h-[2px] bg-textGreen inline-flex transform   translate-x-1  group-hover:translate-x-3 transition-all ease-in-out duration-300 ' ></span>
 
             </div>
+      
             {showMenu && (
                 <div ref={(node) => (ref.current = node) } 
                 className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end '

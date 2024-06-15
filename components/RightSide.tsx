@@ -1,12 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
-
+import { motion } from 'framer-motion'
 const RightSide = () => {
   return (
-    <div className='w-full h-full flex flex-col items-center justify-end text-textLight' >
-    
-            <Link 
+   
+     <motion.div className='w-full h-full flex flex-col items-center justify-end text-textLight'  initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 1.5 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,y:0}}>
+
+
+
+     <Link 
       target="_blank" 
       href="https://wa.me/+212694977110" 
       className="group"
@@ -17,11 +20,13 @@ const RightSide = () => {
         color="green" 
       />
     </Link>
+
+     </motion.div>
+       
       
 
 
     
-            </div>
   )
 }
 
