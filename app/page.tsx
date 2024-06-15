@@ -9,18 +9,12 @@ import LeftSide from '@/components/LeftSide';
 import Navbar from '@/components/Navbar';
 import Projects from '@/components/Projects';
 import RightSide from '@/components/RightSide';
-import Head from 'next/head';
 import Certificate from '@/components/Certificate';
 export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>hamza chbit</title>
-        <meta property="og:title" content="hamza chbit" key="title" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hamzachbit.vercel.app/" />
-      </Head>
+     
 
       <main className="w-full h-screen overflow-y-scroll  font-bodyFont bg-bodYColor text-textLight overflow-x-hidden  ">
 
