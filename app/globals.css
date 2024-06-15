@@ -8,7 +8,7 @@
 
 
 .active {
-    color: #64ffda;
+    color: var(--color-textGreen)
 }
 
 .dark {

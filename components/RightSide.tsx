@@ -1,19 +1,26 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const RightSide = () => {
   return (
     <div className='w-full h-full flex flex-col items-center justify-end text-textLight' >
-        <Link href="https://mail.google.com/mail/?view=cm&to=hamzachbit@gmail.com" target='_blanc' title='gmail'>
-
-
-
-            <p className='text-sm rotate-90 w-72 tracking-wide text-emerald-800  'style={{ color: 'var(--color-textGreen)' }}>hamza.chbit.me</p>
-
+    
+            <Link 
+      target="_blank" 
+      href="https://wa.me/+2126977110" 
+      className="group"
+    >
+      <FaWhatsapp 
+        className="transform group-hover:-translate-y-2 duration-500 transition-all animate-bounce" 
+        size={40}  
+        color="green" 
+      />
+    </Link>
       
 
 
-            </Link>
+    
             </div>
   )
 }

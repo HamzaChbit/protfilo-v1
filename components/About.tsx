@@ -11,13 +11,15 @@ const About = () => {
 
   return (
     <section   id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8' >
-
-      <SectionTitle title='About Me' titleNo='01' />
+      <motion.div   initial={{ y: 100, opacity: 0 }}  transition={{ duration: 1, delay: 0.5 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,y:0}}>
+         <SectionTitle title='About Me' titleNo='01' />
+      </motion.div>
+     
       <div
         className='flex flex-col lgl:flex-row gap-16' >
         <motion.div 
           
-          initial={{ x: -100, opacity: 0 }}  transition={{ duration: 1, delay: 1.2 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,x:0}}
+          initial={{ x: -100, opacity: 0 }}  transition={{ duration: 1, delay: 0.9 ,ease:"easeInOut"}}    whileInView={{opacity:1 ,x:0}}
           className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
           <p>
 
@@ -27,7 +29,7 @@ const About = () => {
           <p>
 
 
-            On the backend, Im proficient in MongoDB, Firebase, Clerk and Prisma, creating scalable solutions with robust data management. <span className='text-emerald-800' > <br />
+            On the backend, Im proficient in MongoDB, Firebase, Clerk and Prisma, creating scalable solutions with robust data management. <span className=' text-textGreen' > <br />
               I prioritize staying updated with industry trends, excel in problem-solving, and collaborate closely with clients to bring their visions to life. </span>My goal is delivering innovative solutions that surpass expectations, leveraging my skill set to create impactful web solutions.
           </p>
 
@@ -61,7 +63,7 @@ const About = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{opacity:1 ,x:0}}
              
-              transition={{ duration: 1, delay: 1.2 ,ease:"easeInOut"}}
+              transition={{ duration: 1, delay: 0.9 ,ease:"easeInOut"}}
             
               className='w-full flex'
             >

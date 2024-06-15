@@ -12,6 +12,7 @@ import RightSide from '@/components/RightSide';
 import ScrollToTop from "react-scroll-to-top";
 import Head from 'next/head';
 import Headroom from "react-headroom"
+import Certificate from '@/components/Certificate';
 export default function Home() {
 
   return (
@@ -39,13 +40,15 @@ export default function Home() {
           <div className="h-[88vh] w-full mx-auto p-4   ">
             <Banner />
             <About />
+            <Certificate/>
             <Projects />
+
             <Archive />
             <Contact />
             <Footer />
           
           </div>
-          <div className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0  '>
+          <div className=' w-28 h-full fixed right-0 bottom-0  '>
               <RightSide/>
             </div>
             </div>

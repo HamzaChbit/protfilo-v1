@@ -213,11 +213,13 @@ link='https://hamzachbit.github.io/gamingcode/'
                                
             
        
-        <div  className='mt-12 flex items-center justify-center' >
+        <motion.div   initial={{ y: 100, opacity: 0 }} 
+        whileInView={{opacity:1 ,y:0}}
+        transition={{ duration: 1, delay:0.4 ,ease:"easeInOut"}}    className='mt-12 flex items-center justify-center' >
           {
             ShowMore ?   <button    onClick={()=> setShowMore(false)}  className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 ' >Show Less</button> :   <button    onClick={()=> setShowMore(true)}  className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 ' >Show More</button>
           }
-        </div>
+        </motion.div>
       
 
     </div>
