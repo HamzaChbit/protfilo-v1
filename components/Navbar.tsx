@@ -50,7 +50,7 @@ const Navbar = () => {
 
 
     <div  className=' w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodYColor px-4 ' >
-        <div     className='max-w-container  cursor-pointer   h-full mx-auto py-1 font-titleFont flex items-center justify-between' >
+        <div     className='max-w-container    h-full mx-auto py-1 font-titleFont flex items-center justify-between' >
             <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} >
                 <Image   className='w-16' src={logo} alt='logo' title='logo' />
             </motion.div>
@@ -137,6 +137,7 @@ const Navbar = () => {
                              <span  className='text-textGreen' >01.</span>About
                         </motion.div>  
                      </Link >
+
                      <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
@@ -146,6 +147,8 @@ const Navbar = () => {
                              <span  className='text-textGreen' >02.</span>Project
                         </motion.div>  
                      </Link >
+
+
                      <Link href='#contact' title='contact' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
