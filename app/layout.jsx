@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import { ThemeProvider } from '../context/ThemeContext'
 import './globals.css'
@@ -17,6 +16,12 @@ export const metadata = {
   applicationName:"Hamza Chbit",
   keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
   authors:[{name:"Hamza Chbit"}],
+  icons: {
+    icon: ['/favicon.ico?v=1'],
+    apple: ['/apple-touch-icon.png?v=4'],
+    shortcut: ['/apple-touch-icon.png']
+  },
+  manifest:'/site.webmanifest',
   creator:"Hamza Chbit",
   publisher:"Hamza chbit",
   alternates:{canonical:"/",languages:{"en-US":"/en-US"}  },
