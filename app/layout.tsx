@@ -37,12 +37,15 @@ card:"summary_large_image"
   },
 }
 
-export default function RootLayout({
-  children,
-}) {
+export default function  RootLayout({
+  children
+}: Readonly<{
+  children: React.ReactNode;
+ 
+}>) {
 
 
-
+  const initialTheme = 'light'; 
 
   return (
     <html lang="en">
@@ -54,7 +57,7 @@ export default function RootLayout({
       </Head>
       <body className={inter.className} >
       
-      <ThemeProvider  >
+      <ThemeProvider initialTheme={initialTheme}>
       <SpeedInsights />
       <ToastProvider/>
      
@@ -62,7 +65,7 @@ export default function RootLayout({
  
         {children}
         <Analytics />
-        </ThemeProvider  >
+        </ThemeProvider>
         </body>
     </html>
   )
