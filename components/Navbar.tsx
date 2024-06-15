@@ -128,31 +128,31 @@ const Navbar = () => {
                         transition={{duration:0.2,delay:0.1,ease:"easeIn"}}
                         >Home</motion.div>
                      </Link >
-                     <Link href='#about' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
+                     <Link href='#about' title="about" className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
                      <motion.div
                           initial={{y:20,opacity:0}}
                           animate={{y:0,opacity:1}}
                           transition={{duration:0.2,delay:0.2,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-800' >01.</span>About
+                             <span  className='text-textGreen' >01.</span>About
                         </motion.div>  
                      </Link >
-                     <Link href='#project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
+                     <Link href='#project' title='project' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'   onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.2,delay:0.3,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-800' >02.</span>Project
+                             <span  className='text-textGreen' >02.</span>Project
                         </motion.div>  
                      </Link >
-                     <Link href='#contact' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
+                     <Link href='#contact' title='contact' className='flex items-center gap-1 font-medium text-primary hover:text-textGreen cursor-pointer duration-300 nav-link'     onClick={handelScroll} >
                      <motion.div
                                  initial={{y:20,opacity:0}}
                                  animate={{y:0,opacity:1}}
                                  transition={{duration:0.4,delay:0.4,ease:"easeIn"}}
                         >
-                             <span  className='text-emerald-800' >03.</span>Contact
+                             <span  className='text-textGreen' >03.</span>Contact
                         </motion.div>  
                      </Link >
 
