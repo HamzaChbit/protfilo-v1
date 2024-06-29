@@ -20,6 +20,7 @@ export const Contact = () => {
           form.current.reset();
       }, (error) => {
           console.log(error.text);
+          toast.error("Message no sent!")
       });
     
   };
@@ -37,7 +38,6 @@ export const Contact = () => {
     sendEmail(data);
   };
 
-  
 
   return (
     <motion.div 
@@ -89,6 +89,6 @@ export const Contact = () => {
     
    
  
-    </motion.div>
+   </motion.div>
   );
 };
