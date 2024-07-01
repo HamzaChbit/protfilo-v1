@@ -37,17 +37,19 @@
  
    
 ::-webkit-scrollbar{
-  width: 15px;
+  width: 10px;
+  cursor: pointer;
   
 }
 
 ::-webkit-scrollbar-track{
   background: var(--color-bodYColor);
+
 }
 
 ::-webkit-scrollbar-thumb{
   background: var(--color-textGreen);
  
  
-} 
+}  
 

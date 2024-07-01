@@ -4,6 +4,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Typewriter from 'typewriter-effect';
 const Banner = () => {
+
+
   return (
     <section id='home' 
     className='max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4  ' >
@@ -29,6 +31,15 @@ const Banner = () => {
         
         >I am a FullStack developer with experience building websites and web applications. <br /> I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS .
 </motion.p>
+                        
+<a href="/assets/cv-chbit.pdf" target='_blanc'> <motion.button
+        initial={{y:100,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.8}}    
+    className="px-4 py-2 rounded-md text-textGreen text-sm border border-textGreen hover:bg-hoverColor duration-300"
+  
+  >
+    Resume
+  </motion.button></a>
+
 
 
     </section>

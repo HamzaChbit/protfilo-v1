@@ -14,4 +14,5 @@ import adbanced from './adbanced.jpeg'
 import meta from './meta.png'
 import johns from './johns.jpeg'
 import dev from "./dev.png"
-export {logo,adan, ecommecre,sanity,solo,adbanced,meta,johns,dev}
+import hotel from './hotel.png'
+export {logo,adan, ecommecre,sanity,solo,adbanced,meta,johns,dev,hotel}

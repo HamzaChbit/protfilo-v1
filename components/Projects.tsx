@@ -5,7 +5,7 @@ import Link from 'next/link';
 import SectionTitle from './SectionTitle';
 import { TbBrandGithub } from 'react-icons/tb';
 import { RxOpenInNewWindow } from 'react-icons/rx';
-import { adan, ecommecre, sanity } from '@/public/assets';
+import { adan, ecommecre, hotel, sanity } from '@/public/assets';
 import { motion } from 'framer-motion'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -99,26 +99,28 @@ const Projects = () => {
         whileInView={{opacity:1 ,y:0}}
         transition={{ duration: 1, delay:0.4 ,ease:"easeInOut"}}     className='w-full flex flex-col items-center justify-center gap-28 mt-10' >
           <div className='flex flex-col xl:flex-row gap-6'>
-            <Link href="https://adan-ma.vercel.app/" target='_blanc' title="adan" className='w-full xl:w-1/2 h-auto relative group '>
+            <Link href="https://hotelsindibad.ma/" target='_blanc' title="Hotel" className='w-full xl:w-1/2 h-auto relative group '>
               <div className='hover:border-4 border-textGreen rounded-3xl'>
-                <Image className='w-full h-full object-contain rounded-2xl' src={adan} alt='commerce' title='commerce'/>
+                <Image className='w-full h-full object-contain rounded-2xl' src={hotel} alt='Hotel' title='Hotel'/>
               </div>
             </Link>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10'>
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-              <h3 className='text-2xl font-bold'>Prayer times</h3>
+              <h3 className='text-2xl font-bold'>Hotel Management Site</h3>
               <p className='bg-bgCard text-sm md:text-base p-2 md:p-6 rounded-md'>
-                Prayer times in Morocco accurately and easily, as the site provides comprehensive schedules for today’s prayers in all cities and regions.
+              The Hôtel Sindibad Agadir website allows online reservations with room customization. Using Next.js and Sanity for the back-end, the site offers a modern design thanks to Tailwind CSS.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>Nextjs</li>
-                <li>Api</li>
+                <li>Sanity</li>
                 <li>Tailwind css</li>
-                <li>Vercel Deployment</li>
+                <li>Next-intl</li>
+                <li>Framer motion</li>
+
               </ul>
               <div className='text-2xl flex gap-4'>
-                <Link className='hover:text-textGreen duration-300' href="https://github.com/HamzaChbit/adan" title='github' target='_blanc'><TbBrandGithub /></Link>
-                <Link className='hover:text-textGreen duration-300' href="https://adan-ma.vercel.app/" title="adan" target='_blanc'><RxOpenInNewWindow /></Link>
+                <Link className='hover:text-textGreen duration-300' href="https://github.com/HamzaChbit/hotelsindibad" title='github' target='_blanc'><TbBrandGithub /></Link>
+                <Link className='hover:text-textGreen duration-300' href="https://hotelsindibad.ma/" title="Hotel" target='_blanc'><RxOpenInNewWindow /></Link>
               </div>
             </div>
           </div>

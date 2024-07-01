@@ -17,7 +17,7 @@ const Navbar = () => {
 
         const ref = useRef<string | any>('')  
         const [showMenu,setShowMenu] =useState(false)
-   
+      
 
     const handelScroll = (e:React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         e.preventDefault()
@@ -170,14 +170,16 @@ const Navbar = () => {
                             <div   className=''>
             <ThemeToggle />
         </div>
-
-                                   
-            {/* <a href="/assets/resume.png" target='_blanc'>
-            <motion.button  
-                    initial={{opacity:0} } animate={{opacity:1}} transition={{delay:0.5,ease:"easeIn"} } className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
-                >
-                    Resume</motion.button>
-            </a> */}
+{/* <a > <motion.button
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 0.5, ease: 'easeIn' }}
+    className="px-4 py-2 rounded-md text-textGreen text-sm border border-textGreen hover:bg-hoverColor duration-300"
+    onClick={handleDownload}
+  >
+    Resume
+  </motion.button></a> */}
+       
             <div  className='flex gap-4' >
                           
           <motion.a     initial={{ y:20, opacity:0} } animate={{  opacity:1}} transition={{delay:0.8,ease:"easeIn"} }   href="https://github.com/HamzaChbit"  target='_blank'    rel="noopener noreferrer" >

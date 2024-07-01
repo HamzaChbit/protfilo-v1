@@ -31,14 +31,13 @@ const [ShowMore , setShowMore] =useState(false)
             listItem = {["Next js",'Tailwind css','vercel' ]}
             link='https://jusicsshopchbit.netlify.app/'
             />  
-                
-                    <ArchiveCard
-            title='Car HM'
-            des= 'A comprehensive car website where you can explore detailed car specifications. Our user-friendly interface allows you to effortlessly search and find your desired car type, providing an enhanced car browsing experience. '
-            listItem = {["Next js",'TypeScript','Tailwind css' ]}
-            link='https://cars-v1.vercel.app/'
-            />
-
+               
+               <ArchiveCard
+            title='Prayer times'
+            des=' Prayer times in Morocco accurately and easily, as the site provides comprehensive schedules for today’s prayers in all cities and regions..'
+            listItem = {["Next js",'Tailwind css','Api' ]}
+            link='https://adan-ma.vercel.app/'
+            />  
 
             {
                 ShowMore && (
@@ -60,7 +59,7 @@ const [ShowMore , setShowMore] =useState(false)
 
 
 
-                   <motion.div  initial={{opacity:0}}  whileInView={{opacity:2}} transition={{delay:0.2}}  >
+                   <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
 
          
                <ArchiveCard
@@ -72,10 +71,23 @@ const [ShowMore , setShowMore] =useState(false)
                     
                     </motion.div>
 
+
+                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+                     
+                    <ArchiveCard
+            title='Car HM'
+            des= 'A comprehensive car website where you can explore detailed car specifications. Our user-friendly interface allows you to effortlessly search and find your desired car type, providing an enhanced car browsing experience. '
+            listItem = {["Next js",'TypeScript','Tailwind css' ]}
+            link='https://cars-v1.vercel.app/'
+            />
+
+</motion.div>
+
+
                  
                    
 
-                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.2}}  >
+                    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
 
 <ArchiveCard
 title='Crypto'
@@ -88,7 +100,7 @@ link='https://cryptomax-1.vercel.app/'
 
 
 
-    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+    <motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.4}}  >
 
 <ArchiveCard
 title='Ecommerce'
@@ -102,7 +114,7 @@ link='https://ecommerce-v10.vercel.app'
 
 
                  
-<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.3}}  >
+<motion.div  initial={{opacity:0}}  whileInView={{opacity:1}} transition={{delay:0.5}}  >
 
 
 <ArchiveCard
