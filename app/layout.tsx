@@ -53,6 +53,7 @@ export default function  RootLayout({
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
             <meta name="robots" content="Hamza Chbit,hamza chbit,chbit, CHBIT , Front end Developer,Agadir,Development" />
+            <meta name="msvalidate.01" content="A42745912D5B69F1E1F1C11B485912B2" />
             <meta name="google-site-verification" content="biLLABt4fX9K0SvGTRdOm1XlTO774iH5iVAsJsmmxkg" />
         <meta property="og:url" content={'https://hamzachbit.vercel.app/'} />
       </Head>
