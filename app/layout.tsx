@@ -5,13 +5,12 @@ import { Inter } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import ToastProvider from '../context/Tosat'
 import { Analytics } from '@vercel/analytics/react';
+import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-
-
-  title: 'Hamza Chbit | Front-end Web Dev   ',
+export const metadata:Metadata = {
+title: 'Hamza Chbit | Front-end Web Dev   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS ',
   applicationName:"Hamza Chbit",
   keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
@@ -33,7 +32,8 @@ card:"summary_large_image"
     title: 'Hamza Chbit',
     description: 'I am a FullStack developer with experience building websites and web applications...',
   
-    url:"https://hamzachbit.vercel.app",siteName:"hamza chbit" ,type:"website",local:""
+    url:"https://hamzachbit.vercel.app",siteName:"hamza chbit" ,
+    type:"website",
   },
   robots: "index, follow",
 }
