@@ -53,10 +53,10 @@ export default function  RootLayout({
            <Head>
        
             <meta name="robots" content="index, follow ,Hamza Chbit,hamza chbit,chbit, CHBIT , Front end Developer,Agadir,Development" />
-
+            <meta name="google-site-verification" content="CCK4uhsF23bU-15VXWD6CkUYzT_Ed0_0FOH9grzp2dI" />
           
             <meta name="msvalidate.01" content="B8C345F65ACF1759C6FEE03ECB37A2E3" />
-            <meta name="google-site-verification" content="biLLABt4fX9K0SvGTRdOm1XlTO774iH5iVAsJsmmxkg" />
+           
        
       </Head>
       <body className={inter.className} >
