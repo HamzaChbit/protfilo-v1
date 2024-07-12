@@ -54,8 +54,8 @@ export default function  RootLayout({
        
             <meta name="robots" content="index, follow ,Hamza Chbit,hamza chbit,chbit, CHBIT , Front end Developer,Agadir,Development" />
 
-            <meta name="msvalidate.01" content="A42745912D5B69F1E1F1C11B485912B2" />
-
+          
+            <meta name="msvalidate.01" content="B8C345F65ACF1759C6FEE03ECB37A2E3" />
             <meta name="google-site-verification" content="biLLABt4fX9K0SvGTRdOm1XlTO774iH5iVAsJsmmxkg" />
        
       </Head>
