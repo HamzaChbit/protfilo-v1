@@ -1,4 +1,4 @@
-import React from 'react'
+"use client"
 interface Props {
     title:string;
     titleNo:string;

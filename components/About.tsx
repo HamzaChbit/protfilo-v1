@@ -1,4 +1,4 @@
-
+"use client"
 import SectionTitle from './SectionTitle'
 import { AiFillThunderbolt } from 'react-icons/ai'
 import Image from 'next/image'

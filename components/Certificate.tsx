@@ -3,9 +3,8 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import SectionTitle from './SectionTitle';
-import { TbBrandGithub } from 'react-icons/tb';
-import { RxOpenInNewWindow } from 'react-icons/rx';
-import { adan, adbanced, ecommecre, sanity, solo ,meta, johns, dev, metalogo, solologo} from '@/public/assets';
+
+import {  solo ,meta,  dev, metalogo, solologo} from '@/public/assets';
 import { motion } from 'framer-motion'
 import { FaLongArrowAltRight, FaRegFolder } from 'react-icons/fa'
 

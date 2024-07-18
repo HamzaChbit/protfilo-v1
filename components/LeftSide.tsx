@@ -1,4 +1,4 @@
-import React from 'react'
+"use client"
 import {TbBrandGithub  } from 'react-icons/tb'
 import {TiSocialLinkedin } from 'react-icons/ti'
 import { FaInstagram ,FaFacebook} from 'react-icons/fa'

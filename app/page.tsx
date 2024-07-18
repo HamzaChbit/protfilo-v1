@@ -1,5 +1,3 @@
-"use client"
-
 import About from '@/components/About';
 import Archive from '@/components/Archive';
 import Banner from '@/components/Banner';
@@ -13,8 +11,7 @@ import Certificate from '@/components/Certificate';
 export default function Home() {
 
   return (
-    <>
-     
+  
 
       <main className="w-full h-screen overflow-y-scroll  font-bodyFont bg-bodYColor text-textLight overflow-x-hidden  ">
 
@@ -46,6 +43,6 @@ export default function Home() {
             </div>
           
       </main>
-    </>
+   
   );
 }
