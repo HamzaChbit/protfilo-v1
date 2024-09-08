@@ -13,7 +13,7 @@ export const metadata:Metadata = {
 title: 'Hamza Chbit | Front-end Web Dev   ',
   description: 'I am a FullStack developer with experience building websites and web applications. I specialize in JavaScript, ReactJS, NextJs, Tailwind CSS ',
   applicationName:"Hamza Chbit",
-  keywords:["Hamza Chbit","Portfolio", "Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
+  keywords:["Hamza Chbit","Portfolio", "CHBIT","Developer", "Developer Portfolio","hamza chbit","chbit","Hamza chbit"],
   authors:[{name:"Hamza Chbit"}],
   icons: {
     icon: ['/favicon.ico?v=1'],

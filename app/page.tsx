@@ -16,7 +16,7 @@ export default function Home() {
       <main className="w-full h-screen overflow-y-scroll  font-bodyFont bg-bodYColor text-textLight overflow-x-hidden  ">
 
 
-  
+
     
 
           <Navbar />
