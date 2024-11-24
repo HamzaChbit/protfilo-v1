@@ -15,4 +15,7 @@ import meta from './meta.png'
 import johns from './johns.jpeg'
 import dev from "./dev.png"
 import hotel from './hotel.png'
-export {logo,adan, ecommecre,sanity,solo,metalogo,adbanced,meta,johns,dev,hotel,solologo }
+import network from './network.jpg'
+import Linkedin from './linkedin.png'
+
+export {logo,adan, ecommecre,sanity,solo,metalogo,adbanced,meta,johns,dev,hotel,solologo,network,Linkedin }

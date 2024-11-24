@@ -23,32 +23,31 @@ const About = () => {
           className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
           <p>
 
-            I specialize in frontend technologies like React, Next.js, TypeScript, Tailwind CSS, SCSS, and Bootstrap 5, ensuring seamless user experiences and maintainable code.
-          </p>
+          I am currently a student in System & Network Administration, with a focus on Active Directory, Windows Server, Routing, and Backup Installation.
 
           <p>
 
 
-            On the backend, Im proficient in MongoDB, Firebase, Clerk and Prisma, creating scalable solutions with robust data management. <span className=' text-textGreen' > <br />
-              I prioritize staying updated with industry trends, excel in problem-solving, and collaborate closely with clients to bring their visions to life. </span>My goal is delivering innovative solutions that surpass expectations, leveraging my skill set to create impactful web solutions.
+        
+          </p>   Alongside my studies,I work as a freelance Front-End Developer, specializing in building responsive websites and web applications. <span className=' text-textGreen' > <br />
+          I have strong expertise in JavaScript, ReactJS, Next.js, and Tailwind CSS, creating engaging and user-friendly interfaces. </span>My goal is to provide reliable IT solutions while ensuring the seamless management of network systems and server infrastructure.
           </p>
 
           <p>Here are a few technologies I have been working with recently :</p>
           <ul className='max-w-[450px]  text-sm font-titleFont grid grid-cols-2 gap-2 mt-6 ' >
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>React </li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Next.js</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Scss</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>TypeScript</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Tailwind css</li>
 
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Bootstrap 5</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>FireBase</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Clerk</li>
+
+            
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Active Directory</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>NextJs</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Cablage</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Reactjs</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Péparation informatique </li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Bootstrap </li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Routing</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>MongoDB</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Prisma</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>JavaScript / ES6</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>HTML / CSS </li>
-
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>GLPI</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Tailwind css</li>
 
 
           </ul>
