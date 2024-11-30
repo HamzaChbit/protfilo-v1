@@ -30,14 +30,18 @@ const Banner = () => {
         
         >I am a System & Network Administration student focusing on Active Directory, Windows Server, and Routing. In addition, I work as a freelance Front-End Developer, <br /> Building responsive websites with  ReactJS, Next.js, and Tailwind CSS.
 </motion.p>
+
+
+
+          {/* this is MY CV */}
                         
-<a href="/assets/cv-chbit.pdf" target='_blanc'> <motion.button
+{/* <a href="/assets/cv-chbit.pdf" target='_blanc'> <motion.button
         initial={{y:100,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5,delay:0.8}}    
     className="px-4 py-2 rounded-md text-textGreen text-sm border border-textGreen hover:bg-hoverColor duration-300"
   
   >
     Resume
-  </motion.button></a>
+  </motion.button></a> */}
 
 
 
