@@ -17,5 +17,6 @@ import dev from "./dev.png"
 import hotel from './hotel.png'
 import network from './network.jpg'
 import Linkedin from './linkedin.png'
-
-export {logo,adan, ecommecre,sanity,solo,metalogo,adbanced,meta,johns,dev,hotel,solologo,network,Linkedin }
+import ccna from './network.png'
+import cisco from './cisco.png'
+export {logo,adan,ccna,cisco, ecommecre,sanity,solo,metalogo,adbanced,meta,johns,dev,hotel,solologo,network,Linkedin }

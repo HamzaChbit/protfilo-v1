@@ -44,9 +44,9 @@ const About = () => {
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Reactjs</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Péparation informatique </li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Bootstrap </li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Routing</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>cPanel</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>MongoDB</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>GLPI</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>FortiGate firewall</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Tailwind css</li>
 
 

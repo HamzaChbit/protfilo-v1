@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SectionTitle from './SectionTitle';
 
-import {  solo ,meta,  dev, metalogo, solologo, network, Linkedin} from '@/public/assets';
+import {  meta,  dev, metalogo,  network,  ccna, cisco} from '@/public/assets';
 import { motion } from 'framer-motion'
 import { FaLongArrowAltRight, FaRegFolder } from 'react-icons/fa'
 
@@ -61,16 +61,16 @@ const Certificate = () => {
               <div className='flex flex-col gap-6 items-center '>
              
               <div className='border-4 border-textGreen  '>
-                    <Image className='w-full  md:h-[300px] h-[150px] '   src={network} alt='network' title='network' />
+                    <Image className='w-full  md:h-[300px] h-[150px] '   src={ccna} alt='network' title='network' />
                     </div>
              
             <div className='flex flex-row items-center justify-center text-black text-xl gap-5'>
                 <div>
-               <Image src={Linkedin} width={35} height={35}  alt='network' title='network'></Image>
+               <Image src={cisco} width={35} height={35}  alt='network' title='network'></Image>
                 </div>
                 <div className='flex flex-col px-2'>
-                    <h1 className='text-textDark font-titleFont'>Network Administration</h1>
-                    <Link href='https://www.linkedin.com/learning/certificates/2062c8d67d55c5cd0d39a3625fd741ee9c0eafe86b8e6bec56932870acafc4a2'title='network'  target="_blank" className='text-textGreen list-disc underline flex flex-row items-center gap-x-2' >See certificate   <FaLongArrowAltRight  /></Link>
+                    <h1 className='text-textDark font-titleFont'>Network Security</h1>
+                    <Link href='https://www.credly.com/badges/e8bd9ea2-4bc4-4a35-9e03-0cd66f7c3490/public_url'title='network'  target="_blank" className='text-textGreen list-disc underline flex flex-row items-center gap-x-2' >See certificate   <FaLongArrowAltRight  /></Link>
                 </div>
 
 
