@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import ToastProvider from '../context/Tosat'
 import { Analytics } from '@vercel/analytics/react';
 import { Metadata } from 'next'
+import Navbar from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -59,13 +60,14 @@ export default function  RootLayout({
            
        
       </Head>
-      <body className={inter.className} >
-      
+      <body className={`${inter.className} overflow-y-scroll overflow-x-hidden bg-bodYColor w-full h-screen  font-bodyFont  text-textLight `}  >
+         
       <ThemeProvider initialTheme={initialTheme}>
+    
       <SpeedInsights />
       <ToastProvider/>
      
-
+  <Navbar />
  
         {children}
         <Analytics />

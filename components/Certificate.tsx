@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SectionTitle from './SectionTitle';
 
-import {  meta,  dev, metalogo,  network,  ccna, cisco} from '@/public/assets';
+import {  meta,  dev, metalogo,  network,  ccna, cisco, logoSohpos, sophos} from '@/public/assets';
 import { motion } from 'framer-motion'
 import { FaLongArrowAltRight, FaRegFolder } from 'react-icons/fa'
 
@@ -105,6 +105,7 @@ const Certificate = () => {
 
             </div>
               </div>
+       
             </motion.div>
 
     

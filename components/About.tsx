@@ -23,7 +23,8 @@ const About = () => {
           className='w-full  text-base text-textDark font-medium flex flex-col gap-4' >
           <p>
 
-          I am currently a student in System & Network Administration, with a focus on Active Directory, Windows Server, Routing, and Backup Installation.
+         I am a System & Network Administration graduate, with a focus on Active Directory, Windows Server, Routing, Backup Installation, NAS management, Virtualization, and Firewall configuration. 
+
 
           <p>
 
@@ -45,7 +46,7 @@ const About = () => {
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Péparation informatique </li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Bootstrap </li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>cPanel</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>MongoDB</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>MySQL</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>FortiGate firewall</li>
             <li className='flex items-center gap-2'><span className='text-textGreen' ><AiFillThunderbolt /></span>Tailwind css</li>
 
@@ -68,9 +69,9 @@ const About = () => {
             >
               <Image
                 className='rounded-lg object-cover'
-                width={600}
-                     height={600}
-                src='/assets/chbit1.jpeg'
+                width={500}
+                     height={500}
+                src='/assets/chbit2.jpeg'
                 alt='profile'
                 title='profile'
               />
